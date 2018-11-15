@@ -1,0 +1,15 @@
+ESRuby::Gem::Specification.new do |spec|
+
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge.js"
+
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/out_of_memory_error.js"
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/stale_rb_value_error.js"
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/argument_error.js"
+
+  
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/js_error.js"
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/rb_error.js"
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/js_value.js"
+  spec.add_appended_js_source "#{File.dirname(__FILE__)}/js/bruby_bridge/rb_value.js"
+  
+end

@@ -1,0 +1,3259 @@
+is_not_primitive1
+jsv new      0x540210
+jsv new object_js_ptr 0x57cce0
+is_not_primitive0
+jsv new      0x5401d0
+jsv new object_js_ptr 0x57cd18
+jsv get      0x540210
+jsv get object_js_ptr 0x57cce0
+jsv get object_js_ptr 0x57cd18
+is_not_primitive1
+jsv new      0x5401b0
+jsv new object_js_ptr 0x57cd00
+is_not_primitive0
+jsv new      0x540170
+jsv new object_js_ptr 0x57cd38
+jsv get      0x5401b0
+jsv get object_js_ptr 0x57cd00
+jsv get object_js_ptr 0x57cd38
+is_not_primitive1
+jsv new      0x540150
+jsv new object_js_ptr 0x57cd48
+is_not_primitive0
+jsv new      0x5400b0
+jsv new object_js_ptr 0x57cda8
+is_not_primitive0
+jsv new      0x540090
+jsv new object_js_ptr 0x57cdb8
+is_not_primitive0
+jsv new      0x540070
+jsv new object_js_ptr 0x57cdc8
+interface_array array_rb:[]
+is_not_primitive1
+jsv existing 0x540210
+is_not_primitive0
+jsv new      0x53feb0
+jsv new object_js_ptr 0x57ce78
+jsv call start
+jsv call     0x540210
+jsv get object_js_ptr 0x57cce0
+jsv get object_js_ptr 0x57ce78
+is_not_primitive1
+jsv new      0x53fe90
+jsv new object_js_ptr 0x57ce88
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x57cda8
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x57cdb8
+jsv get object_js_ptr 0x57cdc8
+jsv get object_js_ptr 0x57ce88
+is_not_primitive0
+jsv new      0x53fe10
+jsv new object_js_ptr 0x589528
+jsv call end
+is_not_primitive0
+jsv new      0x53f8f0
+jsv new object_js_ptr 0x589a08
+is_not_primitive0
+jsv new      0x53f8d0
+jsv new object_js_ptr 0x5899e0
+is_not_primitive0
+jsv new      0x53f8b0
+jsv new object_js_ptr 0x5899f0
+interface_array array_rb:[]jsv gc start
+jsv gc  object_js_ptr 0x589528
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57ce78
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57cd38
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57cd00
+jsv gc       0x5401b0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57cd18
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57cce0
+jsv gc       0x540210
+jsv gc end
+
+is_not_primitive1
+jsv new      0x546df0
+jsv new object_js_ptr 0x568c28
+is_not_primitive0
+jsv new      0x546db0
+jsv new object_js_ptr 0x568c78
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x568c78
+is_not_primitive1
+jsv new      0x546d90
+jsv new object_js_ptr 0x57cd38
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x589a08
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5899e0
+jsv get object_js_ptr 0x5899f0
+jsv get object_js_ptr 0x57cd38
+is_not_primitive0
+jsv new      0x546d10
+jsv new object_js_ptr 0x565980
+jsv call end
+is_not_primitive0
+jsv new      0x5466f0
+jsv new object_js_ptr 0x549658
+is_not_primitive0
+jsv new      0x5466d0
+jsv new object_js_ptr 0x57bd60
+is_not_primitive0
+jsv new      0x5466b0
+jsv new object_js_ptr 0x561d78
+interface_array array_rb:[]
+is_not_primitive1
+jsv existing 0x546df0
+is_not_primitive0
+jsv new      0x546230
+jsv new object_js_ptr 0x568cd8
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x568cd8
+is_not_primitive1
+jsv new      0x546210
+jsv new object_js_ptr 0x568ce8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x549658
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x57bd60
+jsv get object_js_ptr 0x561d78
+jsv get object_js_ptr 0x568ce8
+is_not_primitive0
+jsv new      0x545f30
+jsv new object_js_ptr 0x585748
+jsv call end
+is_not_primitive0
+jsv new      0x544f90
+jsv new object_js_ptr 0x561d18
+is_not_primitive0
+jsv new      0x544f70
+jsv new object_js_ptr 0x57e350
+is_not_primitive0
+jsv new      0x544e50
+jsv new object_js_ptr 0x57c208
+interface_array array_rb:[]
+is_not_primitive1
+jsv existing 0x546df0
+is_not_primitive0
+jsv new      0x544bd0
+jsv new object_js_ptr 0x57c9a8
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x57c9a8
+is_not_primitive1
+jsv new      0x544bb0
+jsv new object_js_ptr 0x57cef8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x561d18
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x57e350
+jsv get object_js_ptr 0x57c208
+jsv get object_js_ptr 0x57cef8
+is_not_primitive0
+jsv new      0x544a70
+jsv new object_js_ptr 0x589858
+jsv call end
+is_not_primitive0
+jsv new      0x543d50
+jsv new object_js_ptr 0x591ba0
+is_not_primitive0
+jsv new      0x543d30
+jsv new object_js_ptr 0x591b78
+is_not_primitive0
+jsv new      0x543d10
+jsv new object_js_ptr 0x591b88
+interface_array array_rb:[]
+is_not_primitive1
+jsv existing 0x546df0
+is_not_primitive0
+jsv new      0x543ad0
+jsv new object_js_ptr 0x591c38
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x591c38
+is_not_primitive1
+jsv new      0x543ab0
+jsv new object_js_ptr 0x591c48
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x591ba0
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x591b78
+jsv get object_js_ptr 0x591b88
+jsv get object_js_ptr 0x591c48
+is_not_primitive0
+jsv new      0x5439f0
+jsv new object_js_ptr 0x591cf8
+jsv call end
+is_not_primitive0
+jsv new      0x542ef0
+jsv new object_js_ptr 0x5921d8
+is_not_primitive0
+jsv new      0x542ed0
+jsv new object_js_ptr 0x5921b0
+is_not_primitive0
+jsv new      0x542eb0
+jsv new object_js_ptr 0x5921c0
+interface_array array_rb:[]
+is_not_primitive1
+jsv existing 0x546df0
+is_not_primitive0
+jsv new      0x542810
+jsv new object_js_ptr 0x592270
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x592270
+is_not_primitive1
+jsv new      0x5427f0
+jsv new object_js_ptr 0x592280
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5921d8
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5921b0
+jsv get object_js_ptr 0x5921c0
+jsv get object_js_ptr 0x592280
+is_not_primitive0
+jsv new      0x542770
+jsv new object_js_ptr 0x592330
+jsv call end
+is_not_primitive0
+jsv new      0x541b10
+jsv new object_js_ptr 0x592b80
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x592b80
+is_not_primitive1
+jsv new      0x541af0
+jsv new object_js_ptr 0x592b90
+is_not_primitive0
+jsv new      0x541a50
+jsv new object_js_ptr 0x592bd8
+is_not_primitive0
+jsv new      0x541a30
+jsv new object_js_ptr 0x592bb0
+is_not_primitive0
+jsv new      0x541a10
+jsv new object_js_ptr 0x592bc0
+is_not_primitive0
+jsv new      0x5418d0
+jsv new object_js_ptr 0x592c60
+is_not_primitive0
+jsv new      0x541890
+jsv new object_js_ptr 0x592d08
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x541890>, #<BRubyBridge::JSInterface:0x5418d0>]
+is_not_primitive1
+jsv existing 0x546df0
+is_not_primitive0
+jsv new      0x5415b0
+jsv new object_js_ptr 0x592d18
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x592d18
+is_not_primitive1
+jsv new      0x541590
+jsv new object_js_ptr 0x592d28
+jsv call end
+is_not_primitive0
+jsv new      0x541510
+jsv new object_js_ptr 0x593050
+jsv call start
+jsv call     0x541590
+jsv get object_js_ptr 0x592d28
+jsv get object_js_ptr 0x593050
+jsv get object_js_ptr 0x592d08
+is_not_primitive0
+jsv new      0x5414d0
+jsv new object_js_ptr 0x593078
+jsv call end
+is_not_primitive0
+jsv new      0x541490
+jsv new object_js_ptr 0x593088
+jsv call start
+jsv call     0x541590
+jsv get object_js_ptr 0x592d28
+jsv get object_js_ptr 0x593088
+jsv get object_js_ptr 0x592c60
+is_not_primitive0
+jsv new      0x541450
+jsv new object_js_ptr 0x5930b0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x592bd8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x592bb0
+jsv get object_js_ptr 0x592bc0
+jsv get object_js_ptr 0x592d28
+is_not_primitive0
+jsv new      0x541410
+jsv new object_js_ptr 0x593150
+jsv call end
+is_not_primitive0
+jsv new      0x540470
+jsv new object_js_ptr 0x593988
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x593988
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5403d0
+jsv new object_js_ptr 0x5939c0
+is_not_primitive0
+jsv new      0x5403b0
+jsv new object_js_ptr 0x593998
+is_not_primitive0
+jsv new      0x540390
+jsv new object_js_ptr 0x5939a8
+is_not_primitive0
+jsv new      0x5401b0
+jsv new object_js_ptr 0x593a48
+is_not_primitive0
+jsv new      0x540170
+jsv new object_js_ptr 0x593af0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x540170>, #<BRubyBridge::JSInterface:0x5401b0>]
+is_not_primitive1
+jsv existing 0x546df0
+is_not_primitive0
+jsv new      0x53fcb0
+jsv new object_js_ptr 0x593e08
+jsv call start
+jsv call     0x546df0
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x593e08
+is_not_primitive1
+jsv new      0x53fc90
+jsv new object_js_ptr 0x593e18
+jsv call end
+is_not_primitive0
+jsv new      0x53fbf0
+jsv new object_js_ptr 0x593e38
+jsv call start
+jsv call     0x53fc90
+jsv get object_js_ptr 0x593e18
+jsv get object_js_ptr 0x593e38
+jsv get object_js_ptr 0x593af0
+is_not_primitive0
+jsv new      0x53fbb0
+jsv new object_js_ptr 0x593e60
+jsv call end
+is_not_primitive0
+jsv new      0x53fb70
+jsv new object_js_ptr 0x593e70
+jsv call start
+jsv call     0x53fc90
+jsv get object_js_ptr 0x593e18
+jsv get object_js_ptr 0x593e70
+jsv get object_js_ptr 0x593a48
+is_not_primitive0
+jsv new      0x53fb30
+jsv new object_js_ptr 0x593e98
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5939c0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x593998
+jsv get object_js_ptr 0x5939a8
+jsv get object_js_ptr 0x593e18
+is_not_primitive0
+jsv new      0x53faf0
+jsv new object_js_ptr 0x593f38
+jsv call end
+jsv gc start
+jsv gc  object_js_ptr 0x593f38
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593e98
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593e70
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593e60
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593e38
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593e08
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593988
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593150
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x5930b0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593088
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593078
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593050
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x592d18
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x592b80
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x592330
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x592270
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591cf8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591c38
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589858
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57c9a8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x585748
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x568cd8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x565980
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x568c78
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x568c28
+jsv gc       0x546df0
+jsv gc end
+is_not_primitive0
+jsv new      0x546710
+jsv new object_js_ptr 0x593f38
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x593f38
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5465f0
+jsv new object_js_ptr 0x563a90
+is_not_primitive0
+jsv new      0x5465d0
+jsv new object_js_ptr 0x568c78
+is_not_primitive0
+jsv new      0x546330
+jsv new object_js_ptr 0x57cc48
+is_not_primitive0
+jsv new      0x545f30
+jsv new object_js_ptr 0x592d18
+is_not_primitive0
+jsv new      0x545c10
+jsv new object_js_ptr 0x563a80
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x545c10>, #<BRubyBridge::JSInterface:0x545f30>]
+is_not_primitive1
+jsv new      0x545050
+jsv new object_js_ptr 0x591c38
+is_not_primitive0
+jsv new      0x544db0
+jsv new object_js_ptr 0x593130
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x593130
+is_not_primitive1
+jsv new      0x544d90
+jsv new object_js_ptr 0x593140
+jsv call end
+is_not_primitive0
+jsv new      0x544cb0
+jsv new object_js_ptr 0x549778
+jsv call start
+jsv call     0x544d90
+jsv get object_js_ptr 0x593140
+jsv get object_js_ptr 0x549778
+jsv get object_js_ptr 0x563a80
+is_not_primitive0
+jsv new      0x544c70
+jsv new object_js_ptr 0x549788
+jsv call end
+is_not_primitive0
+jsv new      0x544c30
+jsv new object_js_ptr 0x593ab8
+jsv call start
+jsv call     0x544d90
+jsv get object_js_ptr 0x593140
+jsv get object_js_ptr 0x593ab8
+jsv get object_js_ptr 0x592d18
+is_not_primitive0
+jsv new      0x544bf0
+jsv new object_js_ptr 0x593ae0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x563a90
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x568c78
+jsv get object_js_ptr 0x57cc48
+jsv get object_js_ptr 0x593140
+is_not_primitive0
+jsv new      0x544b90
+jsv new object_js_ptr 0x561d00
+jsv call end
+is_not_primitive0
+jsv new      0x543650
+jsv new object_js_ptr 0x589838
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x589838
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x543310
+jsv new object_js_ptr 0x589848
+is_not_primitive0
+jsv new      0x5432f0
+jsv new object_js_ptr 0x589858
+is_not_primitive0
+jsv new      0x5432d0
+jsv new object_js_ptr 0x591c68
+is_not_primitive0
+jsv new      0x542c30
+jsv new object_js_ptr 0x591cf0
+is_not_primitive0
+jsv new      0x542950
+jsv new object_js_ptr 0x57c990
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x542950>, #<BRubyBridge::JSInterface:0x542c30>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x542030
+jsv new object_js_ptr 0x57c9a0
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x57c9a0
+is_not_primitive1
+jsv new      0x542010
+jsv new object_js_ptr 0x593810
+jsv call end
+is_not_primitive0
+jsv new      0x541f10
+jsv new object_js_ptr 0x593830
+jsv call start
+jsv call     0x542010
+jsv get object_js_ptr 0x593810
+jsv get object_js_ptr 0x593830
+jsv get object_js_ptr 0x57c990
+is_not_primitive0
+jsv new      0x541e70
+jsv new object_js_ptr 0x593858
+jsv call end
+is_not_primitive0
+jsv new      0x541e30
+jsv new object_js_ptr 0x593868
+jsv call start
+jsv call     0x542010
+jsv get object_js_ptr 0x593810
+jsv get object_js_ptr 0x593868
+jsv get object_js_ptr 0x591cf0
+is_not_primitive0
+jsv new      0x541df0
+jsv new object_js_ptr 0x593890
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x589848
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x589858
+jsv get object_js_ptr 0x591c68
+jsv get object_js_ptr 0x593810
+is_not_primitive0
+jsv new      0x541db0
+jsv new object_js_ptr 0x5938e8
+jsv call end
+is_not_primitive0
+jsv new      0x541510
+jsv new object_js_ptr 0x589a88
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x589a88
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x541470
+jsv new object_js_ptr 0x589a98
+is_not_primitive0
+jsv new      0x541450
+jsv new object_js_ptr 0x589aa8
+is_not_primitive0
+jsv new      0x541430
+jsv new object_js_ptr 0x589ab8
+is_not_primitive0
+jsv new      0x5411f0
+jsv new object_js_ptr 0x589b40
+is_not_primitive0
+jsv new      0x5411b0
+jsv new object_js_ptr 0x589be8
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5411b0>, #<BRubyBridge::JSInterface:0x5411f0>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x540510
+jsv new object_js_ptr 0x589f00
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x589f00
+is_not_primitive1
+jsv new      0x5404f0
+jsv new object_js_ptr 0x589f10
+jsv call end
+is_not_primitive0
+jsv new      0x540450
+jsv new object_js_ptr 0x589f30
+jsv call start
+jsv call     0x5404f0
+jsv get object_js_ptr 0x589f10
+jsv get object_js_ptr 0x589f30
+jsv get object_js_ptr 0x589be8
+is_not_primitive0
+jsv new      0x540370
+jsv new object_js_ptr 0x589f58
+jsv call end
+is_not_primitive0
+jsv new      0x540270
+jsv new object_js_ptr 0x589f68
+jsv call start
+jsv call     0x5404f0
+jsv get object_js_ptr 0x589f10
+jsv get object_js_ptr 0x589f68
+jsv get object_js_ptr 0x589b40
+is_not_primitive0
+jsv new      0x540230
+jsv new object_js_ptr 0x589f90
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x589a98
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x589aa8
+jsv get object_js_ptr 0x589ab8
+jsv get object_js_ptr 0x589f10
+is_not_primitive0
+jsv new      0x5401f0
+jsv new object_js_ptr 0x58a030
+jsv call end
+is_not_primitive0
+jsv new      0x59c100
+jsv new object_js_ptr 0x58a838
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58a838
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59c060
+jsv new object_js_ptr 0x58a870
+is_not_primitive0
+jsv new      0x59c040
+jsv new object_js_ptr 0x58a880
+is_not_primitive0
+jsv new      0x59c020
+jsv new object_js_ptr 0x58a890
+is_not_primitive0
+jsv new      0x59bee0
+jsv new object_js_ptr 0x58a918
+is_not_primitive0
+jsv new      0x59bea0
+jsv new object_js_ptr 0x58a9c0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59bea0>, #<BRubyBridge::JSInterface:0x59bee0>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x59bbc0
+jsv new object_js_ptr 0x58acd8
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58acd8
+is_not_primitive1
+jsv new      0x59bba0
+jsv new object_js_ptr 0x58ace8
+jsv call end
+is_not_primitive0
+jsv new      0x59bb20
+jsv new object_js_ptr 0x58ad08
+jsv call start
+jsv call     0x59bba0
+jsv get object_js_ptr 0x58ace8
+jsv get object_js_ptr 0x58ad08
+jsv get object_js_ptr 0x58a9c0
+is_not_primitive0
+jsv new      0x59bae0
+jsv new object_js_ptr 0x58ad30
+jsv call end
+is_not_primitive0
+jsv new      0x59baa0
+jsv new object_js_ptr 0x58ad40
+jsv call start
+jsv call     0x59bba0
+jsv get object_js_ptr 0x58ace8
+jsv get object_js_ptr 0x58ad40
+jsv get object_js_ptr 0x58a918
+is_not_primitive0
+jsv new      0x59ba60
+jsv new object_js_ptr 0x58ad68
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58a870
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58a880
+jsv get object_js_ptr 0x58a890
+jsv get object_js_ptr 0x58ace8
+is_not_primitive0
+jsv new      0x59ba20
+jsv new object_js_ptr 0x58ae08
+jsv call end
+is_not_primitive0
+jsv new      0x59b320
+jsv new object_js_ptr 0x58b648
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58b648
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59b280
+jsv new object_js_ptr 0x58b680
+is_not_primitive0
+jsv new      0x59b260
+jsv new object_js_ptr 0x58b690
+is_not_primitive0
+jsv new      0x59b240
+jsv new object_js_ptr 0x58b6a0
+is_not_primitive0
+jsv new      0x59b100
+jsv new object_js_ptr 0x58b728
+is_not_primitive0
+jsv new      0x59b0c0
+jsv new object_js_ptr 0x58b7d0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59b0c0>, #<BRubyBridge::JSInterface:0x59b100>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x59ade0
+jsv new object_js_ptr 0x58bae8
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58bae8
+is_not_primitive1
+jsv new      0x59adc0
+jsv new object_js_ptr 0x58baf8
+jsv call end
+is_not_primitive0
+jsv new      0x59ad40
+jsv new object_js_ptr 0x58bb18
+jsv call start
+jsv call     0x59adc0
+jsv get object_js_ptr 0x58baf8
+jsv get object_js_ptr 0x58bb18
+jsv get object_js_ptr 0x58b7d0
+is_not_primitive0
+jsv new      0x59ad00
+jsv new object_js_ptr 0x58bb40
+jsv call end
+is_not_primitive0
+jsv new      0x59acc0
+jsv new object_js_ptr 0x58bb50
+jsv call start
+jsv call     0x59adc0
+jsv get object_js_ptr 0x58baf8
+jsv get object_js_ptr 0x58bb50
+jsv get object_js_ptr 0x58b728
+is_not_primitive0
+jsv new      0x59ac80
+jsv new object_js_ptr 0x58bb78
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58b680
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58b690
+jsv get object_js_ptr 0x58b6a0
+jsv get object_js_ptr 0x58baf8
+is_not_primitive0
+jsv new      0x59ac40
+jsv new object_js_ptr 0x58bc18
+jsv call end
+is_not_primitive0
+jsv new      0x59a540
+jsv new object_js_ptr 0x58c458
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58c458
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59a4a0
+jsv new object_js_ptr 0x58c490
+is_not_primitive0
+jsv new      0x59a480
+jsv new object_js_ptr 0x58c4a0
+is_not_primitive0
+jsv new      0x59a460
+jsv new object_js_ptr 0x58c4b0
+is_not_primitive0
+jsv new      0x59a320
+jsv new object_js_ptr 0x58c538
+is_not_primitive0
+jsv new      0x59a2e0
+jsv new object_js_ptr 0x58c5e0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59a2e0>, #<BRubyBridge::JSInterface:0x59a320>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x59a000
+jsv new object_js_ptr 0x58c8f8
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58c8f8
+is_not_primitive1
+jsv new      0x599fe0
+jsv new object_js_ptr 0x58c908
+jsv call end
+is_not_primitive0
+jsv new      0x599f60
+jsv new object_js_ptr 0x58c928
+jsv call start
+jsv call     0x599fe0
+jsv get object_js_ptr 0x58c908
+jsv get object_js_ptr 0x58c928
+jsv get object_js_ptr 0x58c5e0
+is_not_primitive0
+jsv new      0x599f20
+jsv new object_js_ptr 0x58c950
+jsv call end
+is_not_primitive0
+jsv new      0x599ee0
+jsv new object_js_ptr 0x58c960
+jsv call start
+jsv call     0x599fe0
+jsv get object_js_ptr 0x58c908
+jsv get object_js_ptr 0x58c960
+jsv get object_js_ptr 0x58c538
+is_not_primitive0
+jsv new      0x599ea0
+jsv new object_js_ptr 0x58c988
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58c490
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58c4a0
+jsv get object_js_ptr 0x58c4b0
+jsv get object_js_ptr 0x58c908
+is_not_primitive0
+jsv new      0x599e60
+jsv new object_js_ptr 0x58ca28
+jsv call end
+is_not_primitive0
+jsv new      0x5997a0
+jsv new object_js_ptr 0x58d238
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d238
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x599700
+jsv new object_js_ptr 0x58d270
+is_not_primitive0
+jsv new      0x5996e0
+jsv new object_js_ptr 0x58d280
+is_not_primitive0
+jsv new      0x5996c0
+jsv new object_js_ptr 0x58d290
+is_not_primitive0
+jsv new      0x599580
+jsv new object_js_ptr 0x58d318
+is_not_primitive0
+jsv new      0x599540
+jsv new object_js_ptr 0x58d3c0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x599540>, #<BRubyBridge::JSInterface:0x599580>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x599260
+jsv new object_js_ptr 0x58d6d8
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58d6d8
+is_not_primitive1
+jsv new      0x599240
+jsv new object_js_ptr 0x58d6e8
+jsv call end
+is_not_primitive0
+jsv new      0x5991c0
+jsv new object_js_ptr 0x58d708
+jsv call start
+jsv call     0x599240
+jsv get object_js_ptr 0x58d6e8
+jsv get object_js_ptr 0x58d708
+jsv get object_js_ptr 0x58d3c0
+is_not_primitive0
+jsv new      0x599180
+jsv new object_js_ptr 0x58d730
+jsv call end
+is_not_primitive0
+jsv new      0x599140
+jsv new object_js_ptr 0x58d740
+jsv call start
+jsv call     0x599240
+jsv get object_js_ptr 0x58d6e8
+jsv get object_js_ptr 0x58d740
+jsv get object_js_ptr 0x58d318
+is_not_primitive0
+jsv new      0x599100
+jsv new object_js_ptr 0x58d768
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d270
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58d280
+jsv get object_js_ptr 0x58d290
+jsv get object_js_ptr 0x58d6e8
+is_not_primitive0
+jsv new      0x5990c0
+jsv new object_js_ptr 0x58d808
+jsv call end
+is_not_primitive0
+jsv new      0x598a00
+jsv new object_js_ptr 0x58e018
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58e018
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x598960
+jsv new object_js_ptr 0x58e050
+is_not_primitive0
+jsv new      0x598940
+jsv new object_js_ptr 0x58e060
+is_not_primitive0
+jsv new      0x598920
+jsv new object_js_ptr 0x58e070
+is_not_primitive0
+jsv new      0x5987e0
+jsv new object_js_ptr 0x58e0f8
+is_not_primitive0
+jsv new      0x5987a0
+jsv new object_js_ptr 0x58e1a0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5987a0>, #<BRubyBridge::JSInterface:0x5987e0>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x5984c0
+jsv new object_js_ptr 0x58e4b8
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58e4b8
+is_not_primitive1
+jsv new      0x5984a0
+jsv new object_js_ptr 0x58e4c8
+jsv call end
+is_not_primitive0
+jsv new      0x598420
+jsv new object_js_ptr 0x58e4e8
+jsv call start
+jsv call     0x5984a0
+jsv get object_js_ptr 0x58e4c8
+jsv get object_js_ptr 0x58e4e8
+jsv get object_js_ptr 0x58e1a0
+is_not_primitive0
+jsv new      0x5983e0
+jsv new object_js_ptr 0x58e510
+jsv call end
+is_not_primitive0
+jsv new      0x5983a0
+jsv new object_js_ptr 0x58e520
+jsv call start
+jsv call     0x5984a0
+jsv get object_js_ptr 0x58e4c8
+jsv get object_js_ptr 0x58e520
+jsv get object_js_ptr 0x58e0f8
+is_not_primitive0
+jsv new      0x598360
+jsv new object_js_ptr 0x58e548
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58e050
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58e060
+jsv get object_js_ptr 0x58e070
+jsv get object_js_ptr 0x58e4c8
+is_not_primitive0
+jsv new      0x598320
+jsv new object_js_ptr 0x58e5e8
+jsv call end
+is_not_primitive0
+jsv new      0x597c60
+jsv new object_js_ptr 0x58edf8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58edf8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x597bc0
+jsv new object_js_ptr 0x58ee30
+is_not_primitive0
+jsv new      0x597ba0
+jsv new object_js_ptr 0x58ee40
+is_not_primitive0
+jsv new      0x597b80
+jsv new object_js_ptr 0x58ee50
+is_not_primitive0
+jsv new      0x597a40
+jsv new object_js_ptr 0x58eed8
+is_not_primitive0
+jsv new      0x597a00
+jsv new object_js_ptr 0x58ef80
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x597a00>, #<BRubyBridge::JSInterface:0x597a40>]
+is_not_primitive1
+jsv existing 0x545050
+is_not_primitive0
+jsv new      0x597720
+jsv new object_js_ptr 0x58f298
+jsv call start
+jsv call     0x545050
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58f298
+is_not_primitive1
+jsv new      0x597700
+jsv new object_js_ptr 0x58f2a8
+jsv call end
+is_not_primitive0
+jsv new      0x597680
+jsv new object_js_ptr 0x58f2c8
+jsv call start
+jsv call     0x597700
+jsv get object_js_ptr 0x58f2a8
+jsv get object_js_ptr 0x58f2c8
+jsv get object_js_ptr 0x58ef80
+is_not_primitive0
+jsv new      0x597640
+jsv new object_js_ptr 0x58f2f0
+jsv call end
+is_not_primitive0
+jsv new      0x597600
+jsv new object_js_ptr 0x58f300
+jsv call start
+jsv call     0x597700
+jsv get object_js_ptr 0x58f2a8
+jsv get object_js_ptr 0x58f300
+jsv get object_js_ptr 0x58eed8
+is_not_primitive0
+jsv new      0x5975c0
+jsv new object_js_ptr 0x58f328
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58ee30
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58ee40
+jsv get object_js_ptr 0x58ee50
+jsv get object_js_ptr 0x58f2a8
+is_not_primitive0
+jsv new      0x597580
+jsv new object_js_ptr 0x58f3c8
+jsv call end
+is_not_primitive0
+jsv new      0x596ec0
+jsv new object_js_ptr 0x58fbd8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58fbd8
+is_not_primitive1
+jsv existing 0x541af0
+jsv gc start
+jsv gc  object_js_ptr 0x58fbd8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f3c8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f328
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f300
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f2f0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f2c8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f298
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58edf8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e5e8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e548
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e520
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e510
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e4e8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e4b8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e018
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d808
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d768
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d740
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d730
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d708
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d6d8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d238
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ca28
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c988
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c960
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c950
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c928
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c8f8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c458
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58bc18
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58bb78
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58bb50
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58bb40
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58bb18
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58bae8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58b648
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ae08
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ad68
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ad40
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ad30
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ad08
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58acd8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58a838
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58a030
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589f90
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589f68
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589f58
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589f30
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589f00
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589a88
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x5938e8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593890
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593868
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593858
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593830
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x57c9a0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x589838
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x561d00
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593ae0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593ab8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x549788
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x549778
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593130
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591c38
+jsv gc       0x545050
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x593f38
+jsv gc end
+is_not_primitive0
+jsv new      0x546dd0
+jsv new object_js_ptr 0x568c28
+is_not_primitive0
+jsv new      0x546d10
+jsv new object_js_ptr 0x593130
+is_not_primitive0
+jsv new      0x546cf0
+jsv new object_js_ptr 0x565980
+is_not_primitive0
+jsv new      0x546a70
+jsv new object_js_ptr 0x57bd48
+is_not_primitive0
+jsv new      0x546a10
+jsv new object_js_ptr 0x564138
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x546a10>, #<BRubyBridge::JSInterface:0x546a70>]
+is_not_primitive1
+jsv new      0x5460f0
+jsv new object_js_ptr 0x593980
+is_not_primitive0
+jsv new      0x545bd0
+jsv new object_js_ptr 0x592ff8
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x592ff8
+is_not_primitive1
+jsv new      0x545bb0
+jsv new object_js_ptr 0x58fb88
+jsv call end
+is_not_primitive0
+jsv new      0x5457f0
+jsv new object_js_ptr 0x58fba8
+jsv call start
+jsv call     0x545bb0
+jsv get object_js_ptr 0x58fb88
+jsv get object_js_ptr 0x58fba8
+jsv get object_js_ptr 0x564138
+is_not_primitive0
+jsv new      0x5457b0
+jsv new object_js_ptr 0x58fbb8
+jsv call end
+is_not_primitive0
+jsv new      0x545570
+jsv new object_js_ptr 0x58fbc8
+jsv call start
+jsv call     0x545bb0
+jsv get object_js_ptr 0x58fb88
+jsv get object_js_ptr 0x58fbc8
+jsv get object_js_ptr 0x57bd48
+is_not_primitive0
+jsv new      0x545530
+jsv new object_js_ptr 0x58fbd8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x568c28
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x593130
+jsv get object_js_ptr 0x565980
+jsv get object_js_ptr 0x58fb88
+is_not_primitive0
+jsv new      0x5454f0
+jsv new object_js_ptr 0x58fbe8
+jsv call end
+is_not_primitive0
+jsv new      0x543a70
+jsv new object_js_ptr 0x58ff80
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58ff80
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x543670
+jsv new object_js_ptr 0x58ffb8
+is_not_primitive0
+jsv new      0x543650
+jsv new object_js_ptr 0x58ffc8
+is_not_primitive0
+jsv new      0x543630
+jsv new object_js_ptr 0x58ffd8
+is_not_primitive0
+jsv new      0x542990
+jsv new object_js_ptr 0x590018
+is_not_primitive0
+jsv new      0x542910
+jsv new object_js_ptr 0x590078
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x542910>, #<BRubyBridge::JSInterface:0x542990>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x541f70
+jsv new object_js_ptr 0x590100
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x590100
+is_not_primitive1
+jsv new      0x541f30
+jsv new object_js_ptr 0x590110
+jsv call end
+is_not_primitive0
+jsv new      0x541e50
+jsv new object_js_ptr 0x590130
+jsv call start
+jsv call     0x541f30
+jsv get object_js_ptr 0x590110
+jsv get object_js_ptr 0x590130
+jsv get object_js_ptr 0x590078
+is_not_primitive0
+jsv new      0x541e10
+jsv new object_js_ptr 0x590158
+jsv call end
+is_not_primitive0
+jsv new      0x541dd0
+jsv new object_js_ptr 0x590168
+jsv call start
+jsv call     0x541f30
+jsv get object_js_ptr 0x590110
+jsv get object_js_ptr 0x590168
+jsv get object_js_ptr 0x590018
+is_not_primitive0
+jsv new      0x541d10
+jsv new object_js_ptr 0x590190
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58ffb8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58ffc8
+jsv get object_js_ptr 0x58ffd8
+jsv get object_js_ptr 0x590110
+is_not_primitive0
+jsv new      0x541c50
+jsv new object_js_ptr 0x5901a0
+jsv call end
+is_not_primitive0
+jsv new      0x540e50
+jsv new object_js_ptr 0x5906b8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5906b8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x540c90
+jsv new object_js_ptr 0x5906f0
+is_not_primitive0
+jsv new      0x540c70
+jsv new object_js_ptr 0x590700
+is_not_primitive0
+jsv new      0x540c50
+jsv new object_js_ptr 0x590710
+is_not_primitive0
+jsv new      0x540490
+jsv new object_js_ptr 0x590798
+is_not_primitive0
+jsv new      0x540450
+jsv new object_js_ptr 0x590840
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x540450>, #<BRubyBridge::JSInterface:0x540490>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x53fc70
+jsv new object_js_ptr 0x590ab0
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x590ab0
+is_not_primitive1
+jsv new      0x53fc50
+jsv new object_js_ptr 0x590ac0
+jsv call end
+is_not_primitive0
+jsv new      0x53fbb0
+jsv new object_js_ptr 0x590ae0
+jsv call start
+jsv call     0x53fc50
+jsv get object_js_ptr 0x590ac0
+jsv get object_js_ptr 0x590ae0
+jsv get object_js_ptr 0x590840
+is_not_primitive0
+jsv new      0x53fb70
+jsv new object_js_ptr 0x590b08
+jsv call end
+is_not_primitive0
+jsv new      0x53fb30
+jsv new object_js_ptr 0x590b18
+jsv call start
+jsv call     0x53fc50
+jsv get object_js_ptr 0x590ac0
+jsv get object_js_ptr 0x590b18
+jsv get object_js_ptr 0x590798
+is_not_primitive0
+jsv new      0x53faf0
+jsv new object_js_ptr 0x590b40
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5906f0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x590700
+jsv get object_js_ptr 0x590710
+jsv get object_js_ptr 0x590ac0
+is_not_primitive0
+jsv new      0x53f7f0
+jsv new object_js_ptr 0x590be0
+jsv call end
+is_not_primitive0
+jsv new      0x59ba40
+jsv new object_js_ptr 0x5911d0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5911d0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59b8a0
+jsv new object_js_ptr 0x591208
+is_not_primitive0
+jsv new      0x59b880
+jsv new object_js_ptr 0x591218
+is_not_primitive0
+jsv new      0x59b860
+jsv new object_js_ptr 0x591228
+is_not_primitive0
+jsv new      0x59b6c0
+jsv new object_js_ptr 0x5912b0
+is_not_primitive0
+jsv new      0x59b680
+jsv new object_js_ptr 0x591358
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59b680>, #<BRubyBridge::JSInterface:0x59b6c0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x59b300
+jsv new object_js_ptr 0x591618
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x591618
+is_not_primitive1
+jsv new      0x59b2a0
+jsv new object_js_ptr 0x591628
+jsv call end
+is_not_primitive0
+jsv new      0x59b1a0
+jsv new object_js_ptr 0x591648
+jsv call start
+jsv call     0x59b2a0
+jsv get object_js_ptr 0x591628
+jsv get object_js_ptr 0x591648
+jsv get object_js_ptr 0x591358
+is_not_primitive0
+jsv new      0x59b160
+jsv new object_js_ptr 0x591670
+jsv call end
+is_not_primitive0
+jsv new      0x59b120
+jsv new object_js_ptr 0x591680
+jsv call start
+jsv call     0x59b2a0
+jsv get object_js_ptr 0x591628
+jsv get object_js_ptr 0x591680
+jsv get object_js_ptr 0x5912b0
+is_not_primitive0
+jsv new      0x59b0a0
+jsv new object_js_ptr 0x5916a8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x591208
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x591218
+jsv get object_js_ptr 0x591228
+jsv get object_js_ptr 0x591628
+is_not_primitive0
+jsv new      0x59b060
+jsv new object_js_ptr 0x591748
+jsv call end
+is_not_primitive0
+jsv new      0x59a820
+jsv new object_js_ptr 0x591ce0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x591ce0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59a780
+jsv new object_js_ptr 0x58b6e8
+is_not_primitive0
+jsv new      0x59a760
+jsv new object_js_ptr 0x58b6f8
+is_not_primitive0
+jsv new      0x59a740
+jsv new object_js_ptr 0x58b708
+is_not_primitive0
+jsv new      0x59a560
+jsv new object_js_ptr 0x58a908
+is_not_primitive0
+jsv new      0x59a520
+jsv new object_js_ptr 0x58b718
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59a520>, #<BRubyBridge::JSInterface:0x59a560>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x59a140
+jsv new object_js_ptr 0x592270
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x592270
+is_not_primitive1
+jsv new      0x59a120
+jsv new object_js_ptr 0x58e0e8
+jsv call end
+is_not_primitive0
+jsv new      0x59a0a0
+jsv new object_js_ptr 0x58e5e0
+jsv call start
+jsv call     0x59a120
+jsv get object_js_ptr 0x58e0e8
+jsv get object_js_ptr 0x58e5e0
+jsv get object_js_ptr 0x58b718
+is_not_primitive0
+jsv new      0x59a060
+jsv new object_js_ptr 0x58d300
+jsv call end
+is_not_primitive0
+jsv new      0x59a020
+jsv new object_js_ptr 0x58c508
+jsv call start
+jsv call     0x59a120
+jsv get object_js_ptr 0x58e0e8
+jsv get object_js_ptr 0x58c508
+jsv get object_js_ptr 0x58a908
+is_not_primitive0
+jsv new      0x599fc0
+jsv new object_js_ptr 0x58f320
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58b6e8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58b6f8
+jsv get object_js_ptr 0x58b708
+jsv get object_js_ptr 0x58e0e8
+is_not_primitive0
+jsv new      0x599f80
+jsv new object_js_ptr 0x58f3c0
+jsv call end
+is_not_primitive0
+jsv new      0x599940
+jsv new object_js_ptr 0x58ca28
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58ca28
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x599800
+jsv new object_js_ptr 0x58c060
+is_not_primitive0
+jsv new      0x5997e0
+jsv new object_js_ptr 0x58bbe8
+is_not_primitive0
+jsv new      0x5997c0
+jsv new object_js_ptr 0x58bc10
+is_not_primitive0
+jsv new      0x599620
+jsv new object_js_ptr 0x58ad40
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x599620>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x599360
+jsv new object_js_ptr 0x58b170
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58b170
+is_not_primitive1
+jsv new      0x599340
+jsv new object_js_ptr 0x58b180
+jsv call end
+is_not_primitive0
+jsv new      0x5992c0
+jsv new object_js_ptr 0x58b1a0
+jsv call start
+jsv call     0x599340
+jsv get object_js_ptr 0x58b180
+jsv get object_js_ptr 0x58b1a0
+jsv get object_js_ptr 0x58ad40
+is_not_primitive0
+jsv new      0x599280
+jsv new object_js_ptr 0x58b1c8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58c060
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58bbe8
+jsv get object_js_ptr 0x58bc10
+jsv get object_js_ptr 0x58b180
+is_not_primitive0
+jsv new      0x599220
+jsv new object_js_ptr 0x58a368
+jsv call end
+is_not_primitive0
+jsv new      0x5988a0
+jsv new object_js_ptr 0x58eb40
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58eb40
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x598800
+jsv new object_js_ptr 0x58eb78
+is_not_primitive0
+jsv new      0x5987c0
+jsv new object_js_ptr 0x58eb88
+is_not_primitive0
+jsv new      0x598780
+jsv new object_js_ptr 0x58eb98
+is_not_primitive0
+jsv new      0x598640
+jsv new object_js_ptr 0x58ec08
+is_not_primitive0
+jsv new      0x598600
+jsv new object_js_ptr 0x58ecb0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x598600>, #<BRubyBridge::JSInterface:0x598640>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x598280
+jsv new object_js_ptr 0x58eb50
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58eb50
+is_not_primitive1
+jsv new      0x598200
+jsv new object_js_ptr 0x58eb60
+jsv call end
+is_not_primitive0
+jsv new      0x598160
+jsv new object_js_ptr 0x58cf58
+jsv call start
+jsv call     0x598200
+jsv get object_js_ptr 0x58eb60
+jsv get object_js_ptr 0x58cf58
+jsv get object_js_ptr 0x58ecb0
+is_not_primitive0
+jsv new      0x598120
+jsv new object_js_ptr 0x58cf80
+jsv call end
+is_not_primitive0
+jsv new      0x5980e0
+jsv new object_js_ptr 0x58cf90
+jsv call start
+jsv call     0x598200
+jsv get object_js_ptr 0x58eb60
+jsv get object_js_ptr 0x58cf90
+jsv get object_js_ptr 0x58ec08
+is_not_primitive0
+jsv new      0x598080
+jsv new object_js_ptr 0x58cfb8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58eb78
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58eb88
+jsv get object_js_ptr 0x58eb98
+jsv get object_js_ptr 0x58eb60
+is_not_primitive0
+jsv new      0x598020
+jsv new object_js_ptr 0x58d058
+jsv call end
+is_not_primitive0
+jsv new      0x5977a0
+jsv new object_js_ptr 0x58a768
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58a768
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5976e0
+jsv new object_js_ptr 0x58a7a0
+is_not_primitive0
+jsv new      0x5976c0
+jsv new object_js_ptr 0x593bb0
+is_not_primitive0
+jsv new      0x5976a0
+jsv new object_js_ptr 0x593bc0
+is_not_primitive0
+jsv new      0x5974e0
+jsv new object_js_ptr 0x593c48
+is_not_primitive0
+jsv new      0x597420
+jsv new object_js_ptr 0x593cf0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x597420>, #<BRubyBridge::JSInterface:0x5974e0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5970e0
+jsv new object_js_ptr 0x58f1a8
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58f1a8
+is_not_primitive1
+jsv new      0x5970c0
+jsv new object_js_ptr 0x58f1b8
+jsv call end
+is_not_primitive0
+jsv new      0x597040
+jsv new object_js_ptr 0x58f1d8
+jsv call start
+jsv call     0x5970c0
+jsv get object_js_ptr 0x58f1b8
+jsv get object_js_ptr 0x58f1d8
+jsv get object_js_ptr 0x593cf0
+is_not_primitive0
+jsv new      0x597000
+jsv new object_js_ptr 0x58f200
+jsv call end
+is_not_primitive0
+jsv new      0x596f20
+jsv new object_js_ptr 0x58f210
+jsv call start
+jsv call     0x5970c0
+jsv get object_js_ptr 0x58f1b8
+jsv get object_js_ptr 0x58f210
+jsv get object_js_ptr 0x593c48
+is_not_primitive0
+jsv new      0x596ee0
+jsv new object_js_ptr 0x58f238
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58a7a0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x593bb0
+jsv get object_js_ptr 0x593bc0
+jsv get object_js_ptr 0x58f1b8
+is_not_primitive0
+jsv new      0x596ea0
+jsv new object_js_ptr 0x58f290
+jsv call end
+is_not_primitive0
+jsv new      0x596960
+jsv new object_js_ptr 0x58d5b8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d5b8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5968c0
+jsv new object_js_ptr 0x58d5f0
+is_not_primitive0
+jsv new      0x5968a0
+jsv new object_js_ptr 0x58d600
+is_not_primitive0
+jsv new      0x596880
+jsv new object_js_ptr 0x58d628
+is_not_primitive0
+jsv new      0x5967a0
+jsv new object_js_ptr 0x58d670
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5967a0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x596520
+jsv new object_js_ptr 0x58c7c8
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58c7c8
+is_not_primitive1
+jsv new      0x596500
+jsv new object_js_ptr 0x58c7d8
+jsv call end
+is_not_primitive0
+jsv new      0x596480
+jsv new object_js_ptr 0x58c7f8
+jsv call start
+jsv call     0x596500
+jsv get object_js_ptr 0x58c7d8
+jsv get object_js_ptr 0x58c7f8
+jsv get object_js_ptr 0x58d670
+is_not_primitive0
+jsv new      0x596440
+jsv new object_js_ptr 0x58c820
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d5f0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58d600
+jsv get object_js_ptr 0x58d628
+jsv get object_js_ptr 0x58c7d8
+is_not_primitive0
+jsv new      0x596400
+jsv new object_js_ptr 0x58c8c0
+jsv call end
+is_not_primitive0
+jsv new      0x595b80
+jsv new object_js_ptr 0x59c2a8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x59c2a8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x595ae0
+jsv new object_js_ptr 0x59c2e0
+is_not_primitive0
+jsv new      0x595ac0
+jsv new object_js_ptr 0x59c2b8
+is_not_primitive0
+jsv new      0x595aa0
+jsv new object_js_ptr 0x59c2c8
+is_not_primitive0
+jsv new      0x595960
+jsv new object_js_ptr 0x59c378
+is_not_primitive0
+jsv new      0x595840
+jsv new object_js_ptr 0x59c458
+is_not_primitive0
+jsv new      0x595800
+jsv new object_js_ptr 0x59c4b8
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x595800>, #<BRubyBridge::JSInterface:0x595960>, #<BRubyBridge::JSInterface:0x595840>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5954c0
+jsv new object_js_ptr 0x59c848
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x59c848
+is_not_primitive1
+jsv new      0x5954a0
+jsv new object_js_ptr 0x59c858
+jsv call end
+is_not_primitive0
+jsv new      0x595420
+jsv new object_js_ptr 0x59c878
+jsv call start
+jsv call     0x5954a0
+jsv get object_js_ptr 0x59c858
+jsv get object_js_ptr 0x59c878
+jsv get object_js_ptr 0x59c4b8
+is_not_primitive0
+jsv new      0x5953e0
+jsv new object_js_ptr 0x59c8a0
+jsv call end
+is_not_primitive0
+jsv new      0x5953a0
+jsv new object_js_ptr 0x59c8b0
+jsv call start
+jsv call     0x5954a0
+jsv get object_js_ptr 0x59c858
+jsv get object_js_ptr 0x59c8b0
+jsv get object_js_ptr 0x59c378
+is_not_primitive0
+jsv new      0x595360
+jsv new object_js_ptr 0x59c8d8
+jsv call end
+is_not_primitive0
+jsv new      0x595320
+jsv new object_js_ptr 0x59c8e8
+jsv call start
+jsv call     0x5954a0
+jsv get object_js_ptr 0x59c858
+jsv get object_js_ptr 0x59c8e8
+jsv get object_js_ptr 0x59c458
+is_not_primitive0
+jsv new      0x5952e0
+jsv new object_js_ptr 0x59c910
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x59c2e0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x59c2b8
+jsv get object_js_ptr 0x59c2c8
+jsv get object_js_ptr 0x59c858
+is_not_primitive0
+jsv new      0x5952a0
+jsv new object_js_ptr 0x59c9b0
+jsv call end
+is_not_primitive0
+jsv new      0x594be0
+jsv new object_js_ptr 0x59d1f8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x59d1f8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x594b40
+jsv new object_js_ptr 0x59d230
+is_not_primitive0
+jsv new      0x594b20
+jsv new object_js_ptr 0x59d208
+is_not_primitive0
+jsv new      0x594b00
+jsv new object_js_ptr 0x59d218
+is_not_primitive0
+jsv new      0x5949c0
+jsv new object_js_ptr 0x59d2b8
+is_not_primitive0
+jsv new      0x594980
+jsv new object_js_ptr 0x59d360
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x594980>, #<BRubyBridge::JSInterface:0x5949c0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5946a0
+jsv new object_js_ptr 0x59d678
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x59d678
+is_not_primitive1
+jsv new      0x594680
+jsv new object_js_ptr 0x59d688
+jsv call end
+is_not_primitive0
+jsv new      0x594600
+jsv new object_js_ptr 0x59d6a8
+jsv call start
+jsv call     0x594680
+jsv get object_js_ptr 0x59d688
+jsv get object_js_ptr 0x59d6a8
+jsv get object_js_ptr 0x59d360
+is_not_primitive0
+jsv new      0x5945c0
+jsv new object_js_ptr 0x59d6d0
+jsv call end
+is_not_primitive0
+jsv new      0x594580
+jsv new object_js_ptr 0x59d6e0
+jsv call start
+jsv call     0x594680
+jsv get object_js_ptr 0x59d688
+jsv get object_js_ptr 0x59d6e0
+jsv get object_js_ptr 0x59d2b8
+is_not_primitive0
+jsv new      0x594540
+jsv new object_js_ptr 0x59d708
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x59d230
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x59d208
+jsv get object_js_ptr 0x59d218
+jsv get object_js_ptr 0x59d688
+is_not_primitive0
+jsv new      0x594500
+jsv new object_js_ptr 0x59d7a8
+jsv call end
+is_not_primitive0
+jsv new      0x5a58d8
+jsv new object_js_ptr 0x5a6168
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a6168
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a5838
+jsv new object_js_ptr 0x5a61a0
+is_not_primitive0
+jsv new      0x5a5818
+jsv new object_js_ptr 0x5a6178
+is_not_primitive0
+jsv new      0x5a57f8
+jsv new object_js_ptr 0x5a6188
+is_not_primitive0
+jsv new      0x5a56b8
+jsv new object_js_ptr 0x5a6228
+is_not_primitive0
+jsv new      0x5a5678
+jsv new object_js_ptr 0x5a62d0
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a5678>, #<BRubyBridge::JSInterface:0x5a56b8>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a5398
+jsv new object_js_ptr 0x5a65e8
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5a65e8
+is_not_primitive1
+jsv new      0x5a5378
+jsv new object_js_ptr 0x5a65f8
+jsv call end
+is_not_primitive0
+jsv new      0x5a52f8
+jsv new object_js_ptr 0x5a6618
+jsv call start
+jsv call     0x5a5378
+jsv get object_js_ptr 0x5a65f8
+jsv get object_js_ptr 0x5a6618
+jsv get object_js_ptr 0x5a62d0
+is_not_primitive0
+jsv new      0x5a52b8
+jsv new object_js_ptr 0x5a6640
+jsv call end
+is_not_primitive0
+jsv new      0x5a5278
+jsv new object_js_ptr 0x5a6650
+jsv call start
+jsv call     0x5a5378
+jsv get object_js_ptr 0x5a65f8
+jsv get object_js_ptr 0x5a6650
+jsv get object_js_ptr 0x5a6228
+is_not_primitive0
+jsv new      0x5a5238
+jsv new object_js_ptr 0x5a6678
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a61a0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5a6178
+jsv get object_js_ptr 0x5a6188
+jsv get object_js_ptr 0x5a65f8
+is_not_primitive0
+jsv new      0x5a51f8
+jsv new object_js_ptr 0x5a6718
+jsv call end
+is_not_primitive0
+jsv new      0x5a4ad8
+jsv new object_js_ptr 0x5a6f80
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a6f80
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a4a38
+jsv new object_js_ptr 0x5a6fb8
+is_not_primitive0
+jsv new      0x5a4a18
+jsv new object_js_ptr 0x5a6f90
+is_not_primitive0
+jsv new      0x5a49f8
+jsv new object_js_ptr 0x5a6fa0
+is_not_primitive0
+jsv new      0x5a48b8
+jsv new object_js_ptr 0x5a7040
+is_not_primitive0
+jsv new      0x5a4878
+jsv new object_js_ptr 0x5a70e8
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a4878>, #<BRubyBridge::JSInterface:0x5a48b8>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a4598
+jsv new object_js_ptr 0x5a7400
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5a7400
+is_not_primitive1
+jsv new      0x5a4578
+jsv new object_js_ptr 0x5a7410
+jsv call end
+is_not_primitive0
+jsv new      0x5a44f8
+jsv new object_js_ptr 0x5a7430
+jsv call start
+jsv call     0x5a4578
+jsv get object_js_ptr 0x5a7410
+jsv get object_js_ptr 0x5a7430
+jsv get object_js_ptr 0x5a70e8
+is_not_primitive0
+jsv new      0x5a44b8
+jsv new object_js_ptr 0x5a7458
+jsv call end
+is_not_primitive0
+jsv new      0x5a4478
+jsv new object_js_ptr 0x5a7468
+jsv call start
+jsv call     0x5a4578
+jsv get object_js_ptr 0x5a7410
+jsv get object_js_ptr 0x5a7468
+jsv get object_js_ptr 0x5a7040
+is_not_primitive0
+jsv new      0x5a4438
+jsv new object_js_ptr 0x5a7490
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a6fb8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5a6f90
+jsv get object_js_ptr 0x5a6fa0
+jsv get object_js_ptr 0x5a7410
+is_not_primitive0
+jsv new      0x5a43f8
+jsv new object_js_ptr 0x5a7530
+jsv call end
+is_not_primitive0
+jsv new      0x5a3cf8
+jsv new object_js_ptr 0x5a7db0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a7db0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a3c58
+jsv new object_js_ptr 0x5a7de8
+is_not_primitive0
+jsv new      0x5a3c38
+jsv new object_js_ptr 0x5a7dc0
+is_not_primitive0
+jsv new      0x5a3c18
+jsv new object_js_ptr 0x5a7dd0
+is_not_primitive0
+jsv new      0x5a3ad8
+jsv new object_js_ptr 0x5a7e70
+is_not_primitive0
+jsv new      0x5a3a98
+jsv new object_js_ptr 0x5a7f18
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a3a98>, #<BRubyBridge::JSInterface:0x5a3ad8>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a37b8
+jsv new object_js_ptr 0x5a8230
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5a8230
+is_not_primitive1
+jsv new      0x5a3798
+jsv new object_js_ptr 0x5a8240
+jsv call end
+is_not_primitive0
+jsv new      0x5a3718
+jsv new object_js_ptr 0x5a8260
+jsv call start
+jsv call     0x5a3798
+jsv get object_js_ptr 0x5a8240
+jsv get object_js_ptr 0x5a8260
+jsv get object_js_ptr 0x5a7f18
+is_not_primitive0
+jsv new      0x5a36d8
+jsv new object_js_ptr 0x5a8288
+jsv call end
+is_not_primitive0
+jsv new      0x5a3698
+jsv new object_js_ptr 0x5a8298
+jsv call start
+jsv call     0x5a3798
+jsv get object_js_ptr 0x5a8240
+jsv get object_js_ptr 0x5a8298
+jsv get object_js_ptr 0x5a7e70
+is_not_primitive0
+jsv new      0x5a3658
+jsv new object_js_ptr 0x5a82c0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a7de8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5a7dc0
+jsv get object_js_ptr 0x5a7dd0
+jsv get object_js_ptr 0x5a8240
+is_not_primitive0
+jsv new      0x5a3618
+jsv new object_js_ptr 0x5a8360
+jsv call end
+is_not_primitive0
+jsv new      0x5a3078
+jsv new object_js_ptr 0x5a88b0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a88b0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a2fd8
+jsv new object_js_ptr 0x5a88e8
+is_not_primitive0
+jsv new      0x5a2fb8
+jsv new object_js_ptr 0x5a88c0
+is_not_primitive0
+jsv new      0x5a2f98
+jsv new object_js_ptr 0x5a88d0
+is_not_primitive0
+jsv new      0x5a2eb8
+jsv new object_js_ptr 0x5a8948
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a2eb8>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a2c38
+jsv new object_js_ptr 0x5a8b90
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5a8b90
+is_not_primitive1
+jsv new      0x5a2c18
+jsv new object_js_ptr 0x5a8ba0
+jsv call end
+is_not_primitive0
+jsv new      0x5a2b98
+jsv new object_js_ptr 0x5a8bc0
+jsv call start
+jsv call     0x5a2c18
+jsv get object_js_ptr 0x5a8ba0
+jsv get object_js_ptr 0x5a8bc0
+jsv get object_js_ptr 0x5a8948
+is_not_primitive0
+jsv new      0x5a2b58
+jsv new object_js_ptr 0x5a8be8
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a88e8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5a88c0
+jsv get object_js_ptr 0x5a88d0
+jsv get object_js_ptr 0x5a8ba0
+is_not_primitive0
+jsv new      0x5a2b18
+jsv new object_js_ptr 0x5a8c88
+jsv call end
+is_not_primitive0
+jsv new      0x5a2478
+jsv new object_js_ptr 0x5a94b8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a94b8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a23d8
+jsv new object_js_ptr 0x5a94f0
+is_not_primitive0
+jsv new      0x5a23b8
+jsv new object_js_ptr 0x5a94c8
+is_not_primitive0
+jsv new      0x5a2398
+jsv new object_js_ptr 0x5a94d8
+is_not_primitive0
+jsv new      0x5a21d8
+jsv new object_js_ptr 0x5a95a0
+is_not_primitive0
+jsv new      0x5a2198
+jsv new object_js_ptr 0x5a9648
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a2198>, #<BRubyBridge::JSInterface:0x5a21d8>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a1eb8
+jsv new object_js_ptr 0x5a9960
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5a9960
+is_not_primitive1
+jsv new      0x5a1e98
+jsv new object_js_ptr 0x5a9970
+jsv call end
+is_not_primitive0
+jsv new      0x5a1e18
+jsv new object_js_ptr 0x5a9990
+jsv call start
+jsv call     0x5a1e98
+jsv get object_js_ptr 0x5a9970
+jsv get object_js_ptr 0x5a9990
+jsv get object_js_ptr 0x5a9648
+is_not_primitive0
+jsv new      0x5a1dd8
+jsv new object_js_ptr 0x5a99b8
+jsv call end
+is_not_primitive0
+jsv new      0x5a1d98
+jsv new object_js_ptr 0x5a99c8
+jsv call start
+jsv call     0x5a1e98
+jsv get object_js_ptr 0x5a9970
+jsv get object_js_ptr 0x5a99c8
+jsv get object_js_ptr 0x5a95a0
+is_not_primitive0
+jsv new      0x5a1d58
+jsv new object_js_ptr 0x5a99f0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a94f0
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5a94c8
+jsv get object_js_ptr 0x5a94d8
+jsv get object_js_ptr 0x5a9970
+is_not_primitive0
+jsv new      0x5a1d18
+jsv new object_js_ptr 0x5a9a90
+jsv call end
+is_not_primitive0
+jsv new      0x5a1818
+jsv new object_js_ptr 0x5a9eb0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a9eb0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a1778
+jsv new object_js_ptr 0x5a9ee8
+is_not_primitive0
+jsv new      0x5a1758
+jsv new object_js_ptr 0x5a9ed8
+is_not_primitive0
+jsv new      0x5a1738
+jsv new object_js_ptr 0x5a9ef8
+is_not_primitive0
+jsv new      0x5a1658
+jsv new object_js_ptr 0x5a9f40
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a1658>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a13d8
+jsv new object_js_ptr 0x5aa188
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5aa188
+is_not_primitive1
+jsv new      0x5a13b8
+jsv new object_js_ptr 0x5aa198
+jsv call end
+is_not_primitive0
+jsv new      0x5a1338
+jsv new object_js_ptr 0x5aa1b8
+jsv call start
+jsv call     0x5a13b8
+jsv get object_js_ptr 0x5aa198
+jsv get object_js_ptr 0x5aa1b8
+jsv get object_js_ptr 0x5a9f40
+is_not_primitive0
+jsv new      0x5a12f8
+jsv new object_js_ptr 0x5aa1e0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5a9ee8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5a9ed8
+jsv get object_js_ptr 0x5a9ef8
+jsv get object_js_ptr 0x5aa198
+is_not_primitive0
+jsv new      0x5a12b8
+jsv new object_js_ptr 0x5aa280
+jsv call end
+is_not_primitive0
+jsv new      0x5a0df8
+jsv new object_js_ptr 0x5aa6a0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5aa6a0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a0d58
+jsv new object_js_ptr 0x5aa6d8
+is_not_primitive0
+jsv new      0x5a0d38
+jsv new object_js_ptr 0x5aa6c8
+is_not_primitive0
+jsv new      0x5a0d18
+jsv new object_js_ptr 0x5aa6e8
+is_not_primitive0
+jsv new      0x5a0c38
+jsv new object_js_ptr 0x5aa730
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a0c38>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5a09b8
+jsv new object_js_ptr 0x5aa978
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5aa978
+is_not_primitive1
+jsv new      0x5a0998
+jsv new object_js_ptr 0x5aa988
+jsv call end
+is_not_primitive0
+jsv new      0x5a0918
+jsv new object_js_ptr 0x5aa9a8
+jsv call start
+jsv call     0x5a0998
+jsv get object_js_ptr 0x5aa988
+jsv get object_js_ptr 0x5aa9a8
+jsv get object_js_ptr 0x5aa730
+is_not_primitive0
+jsv new      0x5a08d8
+jsv new object_js_ptr 0x5aa9d0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5aa6d8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5aa6c8
+jsv get object_js_ptr 0x5aa6e8
+jsv get object_js_ptr 0x5aa988
+is_not_primitive0
+jsv new      0x5a0898
+jsv new object_js_ptr 0x5aaa70
+jsv call end
+is_not_primitive0
+jsv new      0x5a03d8
+jsv new object_js_ptr 0x5aae90
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5aae90
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x5a0338
+jsv new object_js_ptr 0x5aaec8
+is_not_primitive0
+jsv new      0x5a0318
+jsv new object_js_ptr 0x5aaeb8
+is_not_primitive0
+jsv new      0x5a02f8
+jsv new object_js_ptr 0x5aaed8
+is_not_primitive0
+jsv new      0x5a0218
+jsv new object_js_ptr 0x5aaf20
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5a0218>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x59ff98
+jsv new object_js_ptr 0x5ab168
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5ab168
+is_not_primitive1
+jsv new      0x59ff78
+jsv new object_js_ptr 0x5ab178
+jsv call end
+is_not_primitive0
+jsv new      0x59fef8
+jsv new object_js_ptr 0x5ab198
+jsv call start
+jsv call     0x59ff78
+jsv get object_js_ptr 0x5ab178
+jsv get object_js_ptr 0x5ab198
+jsv get object_js_ptr 0x5aaf20
+is_not_primitive0
+jsv new      0x59feb8
+jsv new object_js_ptr 0x5ab1c0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5aaec8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5aaeb8
+jsv get object_js_ptr 0x5aaed8
+jsv get object_js_ptr 0x5ab178
+is_not_primitive0
+jsv new      0x59fe78
+jsv new object_js_ptr 0x5ab260
+jsv call end
+jsv gc start
+jsv gc  object_js_ptr 0x58c8c0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c820
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c7f8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c7c8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d5b8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f290
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f238
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f210
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f200
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f1d8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f1a8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58a768
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d058
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58cfb8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58cf90
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58cf80
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58cf58
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58eb50
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58eb40
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58a368
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58b1c8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58b1a0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58b170
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ca28
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f3c0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58f320
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58c508
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58d300
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58e5e0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x592270
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591ce0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591748
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x5916a8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591680
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591670
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591648
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x591618
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x5911d0
+jsv gc end
+is_not_primitive0
+jsv new      0x59bda0
+jsv new object_js_ptr 0x58d1a0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d1a0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59bd00
+jsv new object_js_ptr 0x58bbf8
+is_not_primitive0
+jsv new      0x59bce0
+jsv new object_js_ptr 0x58d6c8
+is_not_primitive0
+jsv new      0x59bcc0
+jsv new object_js_ptr 0x58d6d8
+is_not_primitive0
+jsv new      0x59bbe0
+jsv new object_js_ptr 0x5906c8
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59bbe0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x59b640
+jsv new object_js_ptr 0x592f80
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x592f80
+is_not_primitive1
+jsv new      0x59b620
+jsv new object_js_ptr 0x592f90
+jsv call end
+is_not_primitive0
+jsv new      0x59b5a0
+jsv new object_js_ptr 0x58d648
+jsv call start
+jsv call     0x59b620
+jsv get object_js_ptr 0x592f90
+jsv get object_js_ptr 0x58d648
+jsv get object_js_ptr 0x5906c8
+is_not_primitive0
+jsv new      0x59b560
+jsv new object_js_ptr 0x58ec60
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58bbf8
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58d6c8
+jsv get object_js_ptr 0x58d6d8
+jsv get object_js_ptr 0x592f90
+is_not_primitive0
+jsv new      0x59b520
+jsv new object_js_ptr 0x58ec70
+jsv call end
+is_not_primitive0
+jsv new      0x59a600
+jsv new object_js_ptr 0x5638f8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5638f8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x59a540
+jsv new object_js_ptr 0x58d238
+is_not_primitive0
+jsv new      0x59a4c0
+jsv new object_js_ptr 0x593a30
+is_not_primitive0
+jsv new      0x59a440
+jsv new object_js_ptr 0x591cd8
+is_not_primitive0
+jsv new      0x59a2a0
+jsv new object_js_ptr 0x58c520
+is_not_primitive0
+jsv new      0x59a200
+jsv new object_js_ptr 0x58eec0
+is_not_primitive0
+jsv new      0x59a1c0
+jsv new object_js_ptr 0x58b150
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x59a1c0>, #<BRubyBridge::JSInterface:0x59a2a0>, #<BRubyBridge::JSInterface:0x59a200>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x599c40
+jsv new object_js_ptr 0x591c28
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x591c28
+is_not_primitive1
+jsv new      0x599c20
+jsv new object_js_ptr 0x591c38
+jsv call end
+is_not_primitive0
+jsv new      0x599b60
+jsv new object_js_ptr 0x58b170
+jsv call start
+jsv call     0x599c20
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x58b170
+jsv get object_js_ptr 0x58b150
+is_not_primitive0
+jsv new      0x599b00
+jsv new object_js_ptr 0x592200
+jsv call end
+is_not_primitive0
+jsv new      0x599ac0
+jsv new object_js_ptr 0x592210
+jsv call start
+jsv call     0x599c20
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x592210
+jsv get object_js_ptr 0x58c520
+is_not_primitive0
+jsv new      0x599a80
+jsv new object_js_ptr 0x592238
+jsv call end
+is_not_primitive0
+jsv new      0x5999a0
+jsv new object_js_ptr 0x592248
+jsv call start
+jsv call     0x599c20
+jsv get object_js_ptr 0x591c38
+jsv get object_js_ptr 0x592248
+jsv get object_js_ptr 0x58eec0
+is_not_primitive0
+jsv new      0x599960
+jsv new object_js_ptr 0x592270
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d238
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x593a30
+jsv get object_js_ptr 0x591cd8
+jsv get object_js_ptr 0x591c38
+is_not_primitive0
+jsv new      0x599920
+jsv new object_js_ptr 0x58b230
+jsv call end
+is_not_primitive0
+jsv new      0x598f60
+jsv new object_js_ptr 0x58d010
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d010
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x598ec0
+jsv new object_js_ptr 0x58d020
+is_not_primitive0
+jsv new      0x598e80
+jsv new object_js_ptr 0x58d030
+is_not_primitive0
+jsv new      0x598e20
+jsv new object_js_ptr 0x58d040
+is_not_primitive0
+jsv new      0x598ce0
+jsv new object_js_ptr 0x589f68
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x598ce0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x598820
+jsv new object_js_ptr 0x58ca28
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58ca28
+is_not_primitive1
+jsv new      0x598760
+jsv new object_js_ptr 0x58f2e0
+jsv call end
+is_not_primitive0
+jsv new      0x5986c0
+jsv new object_js_ptr 0x58f300
+jsv call start
+jsv call     0x598760
+jsv get object_js_ptr 0x58f2e0
+jsv get object_js_ptr 0x58f300
+jsv get object_js_ptr 0x589f68
+is_not_primitive0
+jsv new      0x598680
+jsv new object_js_ptr 0x58f328
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d020
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58d030
+jsv get object_js_ptr 0x58d040
+jsv get object_js_ptr 0x58f2e0
+is_not_primitive0
+jsv new      0x598620
+jsv new object_js_ptr 0x58f3c8
+jsv call end
+is_not_primitive0
+jsv new      0x597ea0
+jsv new object_js_ptr 0x58d4f0
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58d4f0
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x597e00
+jsv new object_js_ptr 0x591018
+is_not_primitive0
+jsv new      0x597de0
+jsv new object_js_ptr 0x591028
+is_not_primitive0
+jsv new      0x597dc0
+jsv new object_js_ptr 0x591070
+is_not_primitive0
+jsv new      0x597b40
+jsv new object_js_ptr 0x591098
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x597b40>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5977c0
+jsv new object_js_ptr 0x58c7b0
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58c7b0
+is_not_primitive1
+jsv new      0x5977a0
+jsv new object_js_ptr 0x58c7c0
+jsv call end
+is_not_primitive0
+jsv new      0x597660
+jsv new object_js_ptr 0x591130
+jsv call start
+jsv call     0x5977a0
+jsv get object_js_ptr 0x58c7c0
+jsv get object_js_ptr 0x591130
+jsv get object_js_ptr 0x591098
+is_not_primitive0
+jsv new      0x597600
+jsv new object_js_ptr 0x591008
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x591018
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x591028
+jsv get object_js_ptr 0x591070
+jsv get object_js_ptr 0x58c7c0
+is_not_primitive0
+jsv new      0x5975c0
+jsv new object_js_ptr 0x58f978
+jsv call end
+is_not_primitive0
+jsv new      0x596cc0
+jsv new object_js_ptr 0x58dee8
+jsv get      0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58dee8
+is_not_primitive1
+jsv existing 0x541af0
+is_not_primitive0
+jsv new      0x596c00
+jsv new object_js_ptr 0x58df20
+is_not_primitive0
+jsv new      0x596be0
+jsv new object_js_ptr 0x58df30
+is_not_primitive0
+jsv new      0x596bc0
+jsv new object_js_ptr 0x58df40
+is_not_primitive0
+jsv new      0x596ae0
+jsv new object_js_ptr 0x58df10
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x596ae0>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5966e0
+jsv new object_js_ptr 0x58f1a8
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x58f1a8
+is_not_primitive1
+jsv new      0x5966c0
+jsv new object_js_ptr 0x591558
+jsv call end
+is_not_primitive0
+jsv new      0x596640
+jsv new object_js_ptr 0x591578
+jsv call start
+jsv call     0x5966c0
+jsv get object_js_ptr 0x591558
+jsv get object_js_ptr 0x591578
+jsv get object_js_ptr 0x58df10
+is_not_primitive0
+jsv new      0x596600
+jsv new object_js_ptr 0x5915a0
+jsv call end
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x58df20
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x58df30
+jsv get object_js_ptr 0x58df40
+jsv get object_js_ptr 0x591558
+is_not_primitive0
+jsv new      0x5965c0
+jsv new object_js_ptr 0x59d938
+jsv call end
+start test...
+start-js_value
+0
+is_not_primitive0
+jsv new      0x5b6290
+jsv new object_js_ptr 0x5b8a80
+is_not_primitive0
+jsv new      0x5b6230
+jsv new object_js_ptr 0x5b8dd0
+is_not_primitive1
+jsv existing 0x5460f0
+global|#<BRubyBridge::JSValue:0x5b61b0 @interface=#<BRubyBridge::JSInterface:0x5460f0>>
+js_method proc, arguments:[#<BRubyBridge::JSValue:0x5b6250 @interface=#<BRubyBridge::JSInterface:0x5b6290>>, #<BRubyBridge::JSValue:0x5b61f0 @interface=#<BRubyBridge::JSInterface:0x5b6230>>]
+is_not_primitive0
+jsv new      0x5b5990
+jsv new object_js_ptr 0x5b9880
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5460f0>, #<BRubyBridge::JSInterface:0x5b6290>, #<BRubyBridge::JSInterface:0x5b6230>]
+is_not_primitive1
+jsv existing 0x5460f0
+is_not_primitive0
+jsv new      0x5b5630
+jsv new object_js_ptr 0x5b9c28
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5b9c28
+is_not_primitive1
+jsv new      0x5b5610
+jsv new object_js_ptr 0x5b9c38
+jsv call end
+is_not_primitive0
+jsv new      0x5b5590
+jsv new object_js_ptr 0x5b9c58
+jsv call start
+jsv call     0x5b5610
+jsv get object_js_ptr 0x5b9c38
+jsv get object_js_ptr 0x5b9c58
+jsv get object_js_ptr 0x593980
+is_not_primitive0
+jsv new      0x5b5550
+jsv new object_js_ptr 0x5b9c80
+jsv call end
+is_not_primitive0
+jsv new      0x5b5510
+jsv new object_js_ptr 0x5b9c90
+jsv call start
+jsv call     0x5b5610
+jsv get object_js_ptr 0x5b9c38
+jsv get object_js_ptr 0x5b9c90
+jsv get object_js_ptr 0x5b8a80
+is_not_primitive0
+jsv new      0x5b54d0
+jsv new object_js_ptr 0x5b9cb8
+jsv call end
+is_not_primitive0
+jsv new      0x5b5490
+jsv new object_js_ptr 0x5b9cc8
+jsv call start
+jsv call     0x5b5610
+jsv get object_js_ptr 0x5b9c38
+jsv get object_js_ptr 0x5b9cc8
+jsv get object_js_ptr 0x5b8dd0
+is_not_primitive0
+jsv new      0x5b5450
+jsv new object_js_ptr 0x5b9cf0
+jsv call end
+is_not_primitive0
+jsv new      0x5b5410
+jsv new object_js_ptr 0x5b9d78
+jsv call start
+jsv call     0x540150
+jsv get object_js_ptr 0x57cd48
+jsv get object_js_ptr 0x5b9d78
+jsv get object_js_ptr 0x592b90
+jsv get object_js_ptr 0x5b9880
+jsv get object_js_ptr 0x5b9c38
+is_not_primitive1
+jsv new      0x5b5390
+jsv new object_js_ptr 0x5b9d60
+jsv call end
+1
+is_not_primitive0
+jsv new      0x5b5210
+jsv new object_js_ptr 0x5ba018 js => "js_eval"
+is_not_primitive0
+jsv new      0x5b51b0
+jsv new object_js_ptr 0x5ba120 js => "({})"
+global|#<BRubyBridge::JSValue:0x5b61b0 @interface=#<BRubyBridge::JSInterface:0x5460f0>>
+js_method proc, arguments:[#<BRubyBridge::JSValue:0x5b51d0 @interface=#<BRubyBridge::JSInterface:0x5b5210>>, #<BRubyBridge::JSValue:0x5b5170 @interface=#<BRubyBridge::JSInterface:0x5b51b0>>]
+is_not_primitive0
+jsv new      0x5b4950
+jsv new object_js_ptr 0x5baaa8 js =>"call"
+interface_array array_rb:[#<BRubyBridge::JSInterface:0x5460f0>, #<BRubyBridge::JSInterface:0x5b5210>, #<BRubyBridge::JSInterface:0x5b51b0>]
+is_not_primitive1
+jsv existing 0x5460f0          RbInterface that points to js => Window
+is_not_primitive0
+jsv new      0x5b45f0
+jsv new object_js_ptr 0x5bae50 js => "Array"
+jsv call start
+jsv call     0x5460f0
+jsv get object_js_ptr 0x593980
+jsv get object_js_ptr 0x5bae50
+is_not_primitive1
+jsv new      0x5b45d0
+jsv new object_js_ptr 0x5bae60 js => []
+jsv call end
+is_not_primitive0
+jsv gc start
+jsv gc  object_js_ptr 0x590be0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590b40
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590b18
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590b08
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590ae0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590ab0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x5906b8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x5901a0
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590190
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590168
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590158
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590130
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x590100
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58ff80
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58fbe8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58fbd8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58fbc8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58fbb8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x58fba8
+jsv gc end
+jsv gc start
+jsv gc  object_js_ptr 0x592ff8
+jsv gc end
+jsv gc start
+#                              !!! here we see the gc collect the RbInterface that points to js Window !!!
+jsv gc  object_js_ptr 0x593980 js => Window
+jsv gc       0x5460f0          RbInterface that points to js => Window
+jsv gc end
+jsv new      0x546df0
+jsv new object_js_ptr 0x589738 js => "push"
+jsv call start
+jsv call     0x5b45d0
+jsv get object_js_ptr 0x5bae60
+jsv get object_js_ptr 0x589738
+#                              but now the program tries to get the val that has been freed
+#                              it must still have a refrence to 0x5460f0 even after it has been collected
+jsv get object_js_ptr 0x593980 we get some sort of undefined object error here
+#                              specificity:    Uncaught TypeError: Cannot read property 'refcount' of undefined
+#                              that is an embind error
