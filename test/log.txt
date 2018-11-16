@@ -3155,6 +3155,7 @@ jsv new      0x5b5390
 jsv new object_js_ptr 0x5b9d60
 jsv call end
 1
+#                              now we are in the second iteration of the 100 loop in lib/js_value.rb
 is_not_primitive0
 jsv new      0x5b5210
 jsv new object_js_ptr 0x5ba018 js => "js_eval"
