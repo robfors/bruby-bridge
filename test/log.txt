@@ -3169,7 +3169,7 @@ jsv new      0x5b4950
 jsv new object_js_ptr 0x5baaa8 js =>"call"
 interface_array array_rb:[#<BRubyBridge::JSInterface:0x5460f0>, #<BRubyBridge::JSInterface:0x5b5210>, #<BRubyBridge::JSInterface:0x5b51b0>]
 is_not_primitive1
-jsv existing 0x5460f0          RbInterface that points to js => Window
+jsv existing 0x5460f0          JSInterface that points to js => Window
 is_not_primitive0
 jsv new      0x5b45f0
 jsv new object_js_ptr 0x5bae50 js => "Array"
@@ -3243,9 +3243,9 @@ jsv gc start
 jsv gc  object_js_ptr 0x592ff8
 jsv gc end
 jsv gc start
-#                              !!! here we see the gc collect the RbInterface that points to js Window !!!
+#                              !!! here we see the gc collect the JSInterface that points to js Window !!!
 jsv gc  object_js_ptr 0x593980 js => Window
-jsv gc       0x5460f0          RbInterface that points to js => Window
+jsv gc       0x5460f0          JSInterface that points to js => Window
 jsv gc end
 jsv new      0x546df0
 jsv new object_js_ptr 0x589738 js => "push"
