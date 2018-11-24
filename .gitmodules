@@ -1,0 +1,6 @@
+[submodule "test/resources/bruby-mruby"]
+	path = test/resources/bruby-mruby
+	url = https://github.com/robfors/bruby-mruby.git
+[submodule "test/resources/extraneous"]
+	path = test/resources/extraneous
+	url = https://github.com/robfors/extraneous.git
