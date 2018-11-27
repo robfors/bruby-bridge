@@ -127,11 +127,13 @@ module BRubyBridge
     end
 
 
-    def define_binary_js_operator(keyword, options = {})
+    def define_binary_js_operator(method_name, options = {})
+      method_name = method_name.to_s
+      keyword = options[:keyword] || method_name
       keyword = keyword.to_s
       raise if options[:arguments]
       options[:arguments] = {:other => :any}
-      define_js_method(keyword, "this_object #{keyword} other", options)
+      define_js_method(method_name, "this_object #{keyword} other", options)
       nil
     end
 

@@ -191,19 +191,16 @@ module BRubyBridge
     # end
     
 
-    define_binary_js_operator '==='
+    define_binary_js_operator '>', return: :boolean
     
 
-    define_binary_js_operator '>'
+    define_binary_js_operator '>=', return: :boolean
     
 
-    define_binary_js_operator '>='
+    define_binary_js_operator '<', return: :boolean
     
 
-    define_binary_js_operator '<'
-    
-
-    define_binary_js_operator '<='
+    define_binary_js_operator '<=', return: :boolean
     
 
     define_binary_js_operator '&'
@@ -239,7 +236,7 @@ module BRubyBridge
     
     
     def false?
-      self === self.class.false
+      strictly_equal?(self.class.false)
     end
 
     
@@ -269,7 +266,7 @@ module BRubyBridge
 
     
     def null?
-      self === self.class.null
+      strictly_equal?(self.class.null)
     end
 
     
@@ -299,7 +296,10 @@ module BRubyBridge
     alias_method :[]=, :set
 
     
-    define_js_method :strictly_not_equal, "this_object !== other", arguments: {:other => :any}, return: :boolean
+    define_binary_js_operator :strictly_equal?, keyword: '===', return: :boolean
+
+
+    define_binary_js_operator :strictly_not_equal?, keyword: '!==', return: :boolean
 
 
     define_js_method :string?, "typeof this_object == 'string'", return: :boolean
@@ -339,7 +339,7 @@ module BRubyBridge
 
 
     def true?
-      self === self.class.true
+      strictly_equal?(self.class.true)
     end
 
     
@@ -347,7 +347,7 @@ module BRubyBridge
 
 
     def undefined?
-      self === self.class.undefined
+      strictly_equal?(self.class.undefined)
     end
 
 

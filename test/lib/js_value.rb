@@ -286,15 +286,6 @@ ensure_js_result("v0 == 9", (js_eval("3") ** js_eval("2")))
 # ensure_result_not( o != o )
 
 
-test("#===")
-#
-ensure_result( js_eval("3") === js_eval("3") )
-#
-ensure_result_not( js_eval("2") === js_eval("3") )
-#
-ensure_result_not( js_eval("3") === js_eval("'3'") )
-
-
 test("#>")
 #
 ensure_result( js_eval("3") > js_eval("2") )
@@ -1297,6 +1288,25 @@ end
 Object.undef_method(:m)
 # too many arguments
 ensure_raise(ArgumentError) { js_eval("({})").set("a", js_eval("3"), js_eval("5")) }
+
+
+test("#strictly_equal?")
+#
+ensure_result( js_eval("3").strictly_equal?(js_eval("3")) )
+#
+ensure_result_not( js_eval("2").strictly_equal?(js_eval("3")) )
+#
+ensure_result_not( js_eval("3").strictly_equal?(js_eval("'3'")) )
+
+
+test("#strictly_not_equal?")
+#
+ensure_result( js_eval("2").strictly_not_equal?(js_eval("3")) )
+#
+ensure_result( js_eval("3").strictly_not_equal?(js_eval("'3'")) )
+#
+ensure_result_not( js_eval("3").strictly_not_equal?(js_eval("3")) )
+
 
 
 test("#string?")

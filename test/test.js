@@ -39,7 +39,7 @@ ensure_raise = function(error_class, func)
 
 ensure_result = function(result)
 {
-  if (!!result)
+  if (result === true)
     pass();
   else
     fail();
@@ -48,7 +48,7 @@ ensure_result = function(result)
 
 ensure_result_not = function(result)
 {
-  ensure_result(!result);
+  ensure_result(result === false);
 };
 
 

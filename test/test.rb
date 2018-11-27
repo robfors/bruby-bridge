@@ -20,7 +20,7 @@ end
 
 
 def ensure_result(result)
-  if !!result
+  if result == true
     pass
   else
     fail
@@ -30,7 +30,7 @@ end
 
 
 def ensure_result_not(result)
-  ensure_result(!result)
+  ensure_result(result == false)
 end
 
 
