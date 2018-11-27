@@ -203,6 +203,11 @@ module BRubyBridge
     define_unary_js_operator '!', return: :boolean
 
 
+    def array?
+      typeof == "object" && instanceof(self.class["Array"])
+    end
+
+
     def boolean?
       typeof == "boolean"
     end
@@ -305,6 +310,17 @@ module BRubyBridge
 
 
     define_js_method :throw, "(function(){ throw this_object; })()"
+
+
+    def to_array
+      raise TypeError, "js object must be an array" unless array?
+      array = []
+      length = get("length").to_integer
+      length.times do |index|
+        array << get(index)
+      end
+      array
+    end
 
 
     def to_boolean

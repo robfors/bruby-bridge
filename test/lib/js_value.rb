@@ -208,6 +208,23 @@ ensure_js_result("v0 === window", JSValue.window)
 ensure_js_result_not("v0 == {}", JSValue.window)
 
 
+test("#array?")
+#
+ensure_result( js_eval("[]").array? )
+#
+ensure_result( js_eval("[1, '2']").array? )
+#
+ensure_result_not( js_eval("2").array? )
+#
+ensure_result_not( js_eval("'[]'").array? )
+#
+ensure_result_not( js_eval("true").array? )
+#
+ensure_result_not( js_eval("({})").array? )
+#
+ensure_result_not( js_eval("undefined").array? )
+
+
 test("#[]")
 # well tested in #get
 # too few arguments
@@ -1304,6 +1321,26 @@ ensure_result_not( js_eval("true").string? )
 ensure_result_not( js_eval("({})").string? )
 #
 ensure_result_not( js_eval("undefined").string? )
+
+
+test("#to_array")
+#
+ensure_result( js_eval("[]").to_array == [] )
+#
+ensure_result_not( js_eval("[1]").to_array == [] )
+#
+o = js_eval("({})")
+a = js_eval("[v0]", o)
+ensure_result( a.to_array == [o] )
+o, a = nil
+#
+o1 = js_eval("({})")
+o2 = js_eval("({})")
+a = js_eval("[v0, v1]", o1, o2)
+ensure_result( a.to_array == [o1, o2] )
+o1, o2, a = nil
+#
+ensure_raise(TypeError) { js_eval("{}").to_array }
 
 
 test("#to_boolean")
