@@ -252,40 +252,6 @@ test("#**")
 ensure_js_result("v0 == 9", (js_eval("3") ** js_eval("2")))
 
 
-# test("#==")
-# #
-# ensure_result( js_eval("3") == js_eval("3") )
-# #
-# o = js_eval("({})")
-# ensure_result( o == o )
-# #
-# ensure_result_not( js_eval("3") == js_eval("2") )
-# #
-# ensure_result_not( js_eval("({})") == js_eval("({})") )
-# #
-# ensure_result_not( js_eval("3") == 3 )
-# #
-# ensure_result_not( 3 == js_eval("3") )
-# #
-# ensure_result( js_eval("2") == js_eval("'2'") )
-
-
-# test("#!=")
-# #
-# ensure_result( js_eval("3") != js_eval("2") )
-# #
-# ensure_result( js_eval("({})") != js_eval("({})") )
-# #
-# ensure_result( js_eval("3") != 3 )
-# #
-# ensure_result( 3 != js_eval("3") )
-# #
-# ensure_result_not( js_eval("3") != js_eval("3") )
-# #
-# o = js_eval("({})")
-# ensure_result_not( o != o )
-
-
 test("#>")
 #
 ensure_result( js_eval("3") > js_eval("2") )
@@ -631,20 +597,20 @@ a = nil
 ensure_raise(ArgumentError) { js_eval("({})").delete("a", "b") }
 
 
-# test("#eql?")
-# #
-# ensure_result( js_eval("3").eql?(js_eval("3")) )
-# #
-# o = js_eval("({})")
-# ensure_result( o == o )
-# #
-# ensure_result_not( js_eval("3").eql?(js_eval("2")) )
-# #
-# ensure_result_not( js_eval("({})").eql?(js_eval("({})")) )
-# #
-# ensure_result_not( js_eval("3").eql?(3) )
-# #
-# ensure_result_not( 3.eql?(js_eval("3")) )
+test("#equal_js?")
+#
+ensure_result( js_eval("3").equal_js?(js_eval("3")) )
+#
+o = js_eval("({})")
+ensure_result( o.equal_js?(o) )
+#
+ensure_result_not( js_eval("3").equal_js?(js_eval("2")) )
+#
+ensure_result_not( js_eval("({})").equal_js?(js_eval("({})")) )
+#
+ensure_result_not( js_eval("3").equal_js?(3) )
+#
+ensure_result( js_eval("2").equal_js?(js_eval("'2'")) )
 
 
 test("#false?")
@@ -1035,6 +1001,20 @@ else
   fail
 end
 Object.undef_method(:m)
+
+
+test("#not_equal_js?")
+#
+ensure_result( js_eval("3").not_equal_js?(js_eval("2")) )
+#
+ensure_result( js_eval("({})").not_equal_js?(js_eval("({})")) )
+#
+ensure_result( js_eval("3").not_equal_js?(3) )
+#
+ensure_result_not( js_eval("3").not_equal_js?(js_eval("3")) )
+#
+o = js_eval("({})")
+ensure_result_not( o.not_equal_js?(o) )
 
 
 test("#null?")

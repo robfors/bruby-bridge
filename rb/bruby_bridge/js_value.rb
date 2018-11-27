@@ -170,27 +170,6 @@ module BRubyBridge
     define_js_method '**', "Math.pow(this_object, other)", arguments: {:other => :any}
     
     
-    # define_js_method :_js_equal, "this_object == other", arguments: {:other => :any}, return: :boolean
-    # def ==(other_object)
-    #   if other_object.is_a?(JSValue)
-    #     _js_equal.call(other_object)
-    #   else
-    #     false
-    #   end
-    # end
-    # alias_method :eql?, :==
-
-    
-    # define_js_method :_js_not_equal, "this_object != other", arguments: {:other => :any}, return: :boolean
-    # def !=(other_object)
-    #   if other_object.is_a?(JSValue)
-    #     _js_not_equal.call(other_object)
-    #   else
-    #     true
-    #   end
-    # end
-    
-
     define_binary_js_operator '>', return: :boolean
     
 
@@ -235,6 +214,16 @@ module BRubyBridge
     define_js_method :delete, "delete this_object[key]", arguments: {:key => :key}, return: :boolean
     
     
+    define_binary_js_operator :_equal_js?, operator: '==', return: :boolean
+    def equal_js?(other_object)
+      if other_object.is_a?(JSValue)
+        _equal_js?(other_object)
+      else
+        false
+      end
+    end
+
+    
     def false?
       strictly_equal?(self.class.false)
     end
@@ -263,6 +252,16 @@ module BRubyBridge
 
 
     define_js_method :new, "new this_object(...args)", arguments: {'*args' => :any}
+
+
+    define_binary_js_operator :_not_equal_js?, operator: '!=', return: :boolean
+    def not_equal_js?(other_object)
+      if other_object.is_a?(JSValue)
+        _not_equal_js?(other_object)
+      else
+        true
+      end
+    end
 
     
     def null?
@@ -296,10 +295,10 @@ module BRubyBridge
     alias_method :[]=, :set
 
     
-    define_binary_js_operator :strictly_equal?, keyword: '===', return: :boolean
+    define_binary_js_operator :strictly_equal?, operator: '===', return: :boolean
 
 
-    define_binary_js_operator :strictly_not_equal?, keyword: '!==', return: :boolean
+    define_binary_js_operator :strictly_not_equal?, operator: '!==', return: :boolean
 
 
     define_js_method :string?, "typeof this_object == 'string'", return: :boolean
