@@ -1435,6 +1435,19 @@ ensure_result( js_eval("null").to_string == "null" )
 ensure_result( js_eval("({})").to_string == "[object Object]" )
 
 
+test("#to_symbol")
+#
+ensure_result( js_eval("'a'").to_symbol == :a )
+#
+ensure_result( js_eval("'abc'").to_symbol == :abc )
+#
+ensure_result( js_eval("undefined").to_symbol == :undefined )
+#
+ensure_result( js_eval("({})").to_symbol == :'[object Object]' )
+#
+ensure_result( js_eval("'0'").to_symbol == :'0' )
+
+
 test("#true?")
 #
 ensure_result( js_eval("true").true? )

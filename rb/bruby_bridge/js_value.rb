@@ -353,6 +353,11 @@ module BRubyBridge
     end
 
 
+    def to_symbol
+      to_string.to_sym
+    end
+
+
     def true?
       strictly_equal?(self.class.true)
     end
