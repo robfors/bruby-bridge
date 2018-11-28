@@ -141,12 +141,45 @@
     //}
 
 
+    equal_to(other_object)
+    {
+      if (arguments.length != 1)
+        throw new ArgumentError('must pass one argument');
+      return this.send('==', other_object).to_boolean();
+    }
+
+
+
     // TODO: replace with js finalizer when available
     //forget()
     //{
     //  this.delete();
     //  //this.active = false;
     //};
+
+
+    is_a(klass)
+    {
+      if (arguments.length != 1)
+        throw new ArgumentError('must pass one argument');
+      if (typeof klass == 'string')
+        klass = this.constructor.get(klass);
+      else if (klass instanceof this.constructor)
+        klass = klass;
+      else
+        throw new TypeError('must pass class as string or RbValue');
+      return this.send('is_a?', klass).to_boolean();
+    }
+
+
+    responds_to(method_name)
+    {
+      if (arguments.length != 1)
+        throw new ArgumentError('must pass one argument');
+      if (typeof method_name != 'string')
+        throw new TypeError('must pass method_name as string');
+      return this.send('respond_to?', this.constructor.string(method_name)).to_boolean();
+    }
 
 
     send(method_name, ...args)
@@ -196,6 +229,13 @@
 
     to_number()
     {
+      if (this.responds_to('to_int'))
+      {
+        var integer_rb = this.send('to_int');
+        if (!integer_rb.is_a('Integer'))
+          throw new TypeError('#to_int must return an Integer');
+        return integer_rb.to_number();
+      }
       var float_rb;
       try
       {

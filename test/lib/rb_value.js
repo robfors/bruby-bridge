@@ -187,6 +187,53 @@
   //
   ensure_rb_result_not("v0 == nil", RbValue.true);
 
+  
+  test("RbValue.prototype.equal_to");
+  //
+  ensure_result( rb_eval("1").equal_to(rb_eval("1.0")) );
+  //
+  ensure_result_not( rb_eval("1").equal_to(rb_eval("1.1")) );
+  //
+  ensure_result_not( rb_eval("nil").equal_to(rb_eval("false")) );
+  //
+  ensure_raise(ArgumentError, () => rb_eval("nil").equal_to() );
+  //
+  ensure_raise(ArgumentError, () => rb_eval("nil").equal_to(rb_eval("nil"), rb_eval("nil")) );
+  
+
+  test("RbValue.prototype.is_a");
+  //
+  ensure_result( rb_eval("1").is_a(rb_eval("Integer")) );
+  //
+  ensure_result( rb_eval("1").is_a("Integer") );
+  //
+  ensure_result_not( rb_eval("1").is_a(rb_eval("Float")) );
+  //
+  ensure_result_not( rb_eval("1").is_a("Float") );
+  //
+  ensure_raise(TypeError, () => rb_eval("1").is_a(1) );
+  //
+  ensure_raise(ArgumentError, () => rb_eval("1").is_a() );
+  //
+  ensure_raise(ArgumentError, () => rb_eval("1").is_a(rb_eval("Integer"), rb_eval("Integer")) );
+
+
+  test("RbValue.prototype.responds_to");
+  //
+  rb_eval('$c = Class.new { def self.a; end }')
+  ensure_result( rb_eval("$c").responds_to('a') );
+  rb_eval('$c = nil')
+  //
+  rb_eval('$c = Class.new { def self.a; end }')
+  ensure_result_not( rb_eval("$c").responds_to('b') );
+  rb_eval('$c = nil')
+  //
+  ensure_raise(ArgumentError, () => rb_eval("nil").responds_to() );
+  //
+  ensure_raise(ArgumentError, () => rb_eval("nil").responds_to('a', 'b') );
+  //
+  ensure_raise(TypeError, () => rb_eval("nil").responds_to(1) );
+
 
   test("RbValue.prototype.send");
   // too few arguments
@@ -363,7 +410,7 @@
   ensure_result( rb_eval("nil").to_boolean() === false );
 
 
-  test("::to_number");
+  test("RbValue.prototype.to_number");
   //
   ensure_result( rb_eval("0").to_number() === 0 );
   //
@@ -377,6 +424,10 @@
   //
   ensure_result( rb_eval("'2'").to_number() === 2 );
   //
+  rb_eval("$c = Class.new { def to_int; 1; end }");
+  ensure_result( rb_eval("$c.new").to_number() === 1 );
+  rb_eval("$c = nil");
+  //
   ensure_raise(TypeError, () => rb_eval("nil").to_number() );
   //
   ensure_raise(TypeError, () => rb_eval("true").to_number() );
@@ -384,7 +435,7 @@
   ensure_raise(TypeError, () => rb_eval("[]").to_number() );
   
 
-  test("::to_string");
+  test("RbValue.prototype.to_string");
   //
   ensure_result( rb_eval("''").to_string() === '' );
   //
