@@ -34,7 +34,7 @@
       {
         return_value = func();
         if (typeof return_value == 'object' && return_value instanceof JSError)
-          throw new TypeError("can not reutrn a JSError")
+          throw new TypeError("can not reutrn a JSError");
       }
       catch (error_js)
       {

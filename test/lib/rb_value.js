@@ -200,8 +200,8 @@
   rb_eval("$a = nil");
   delete global.a;
   // passing rb arguments should be valid
-  global.a1 = rb_eval("2")
-  global.a2 = rb_eval("{}")
+  global.a1 = rb_eval("2");
+  global.a2 = rb_eval("{}");
   rb_eval("define_method(:m) { |a1, a2| $a1, $a2 = a1, a2; }");
   rb_eval("Object").send("m", global.a1, global.a2);
   ensure_rb_result("$a1.equal?(v0) && $a2.equal?(v1)", global.a1, global.a2);
@@ -210,43 +210,43 @@
   delete global.a1;
   delete global.a2;
   // ensure that passing the same RbValue again will result in the same rb object
-  global.a = rb_eval("Object.new")
-  rb_eval("$v = []")
+  global.a = rb_eval("Object.new");
+  rb_eval("$v = []");
   rb_eval("define_method(:m) { |a| $v << a; }");
-  rb_eval("Object").send("m", global.a)
-  rb_eval("Object").send("m", global.a)
-  ensure_rb_result("$v[0].equal?($v[1])")
-  rb_eval("$v = nil")
+  rb_eval("Object").send("m", global.a);
+  rb_eval("Object").send("m", global.a);
+  ensure_rb_result("$v[0].equal?($v[1])");
+  rb_eval("$v = nil");
   rb_eval("Object.undef_method(:m)");
   delete global.a;
   // ensure that passing a different RbValue will result in a different rb object
-  rb_eval("$v = []")
+  rb_eval("$v = []");
   rb_eval("define_method(:m) { |a| $v << a; }");
-  rb_eval("Object").send("m", rb_eval("Object.new"))
-  rb_eval("Object").send("m", rb_eval("Object.new"))
-  ensure_rb_result_not("$v[0].equal?($v[1])")
-  ensure_rb_result_not("$v[0] == $v[1]")
-  rb_eval("$v = nil")
+  rb_eval("Object").send("m", rb_eval("Object.new"));
+  rb_eval("Object").send("m", rb_eval("Object.new"));
+  ensure_rb_result_not("$v[0].equal?($v[1])");
+  ensure_rb_result_not("$v[0] == $v[1]");
+  rb_eval("$v = nil");
   rb_eval("Object.undef_method(:m)");
   // ensure that returning JSValue is correct type in js
   rb_eval("define_method(:m) { BRubyBridge::JSValue.global }");
   ensure_result( rb_eval("Object").send("m") === global );
   rb_eval("Object.undef_method(:m)");
   // ensure that returning the same rb object again will result in the same RbValue
-  rb_eval("$r = Object.new")
+  rb_eval("$r = Object.new");
   rb_eval("define_method(:m) { $r }");
-  ensure_result( rb_eval("Object").send("m") === rb_eval("Object").send("m") )
-  rb_eval("$r = nil")
+  ensure_result( rb_eval("Object").send("m") === rb_eval("Object").send("m") );
+  rb_eval("$r = nil");
   rb_eval("Object.undef_method(:m)");
   // ensure that returning a different rb object will result in a different RbValue
   rb_eval("define_method(:m) { Object.new }");
-  ensure_result_not( rb_eval("Object").send("m") === rb_eval("Object").send("m") )
-  ensure_result_not( rb_eval("Object").send("m") == rb_eval("Object").send("m") )
+  ensure_result_not( rb_eval("Object").send("m") === rb_eval("Object").send("m") );
+  ensure_result_not( rb_eval("Object").send("m") == rb_eval("Object").send("m") );
   rb_eval("Object.undef_method(:m)");
   // ensure returned value is valid
-  global.r = rb_eval("Object.new")
+  global.r = rb_eval("Object.new");
   rb_eval("define_method(:m) { v0; }", global.r);
-  ensure_rb_result("v0.equal?(v1)", rb_eval("Object").send("m"), global.r)
+  ensure_rb_result("v0.equal?(v1)", rb_eval("Object").send("m"), global.r);
   rb_eval("Object.undef_method(:m)");
   delete global.r
   // no arguments passed to rb method
@@ -254,23 +254,23 @@
   ensure_rb_result("v0 == []", rb_eval("Object").send("m"));
   rb_eval("Object.undef_method(:m)");
   // single argument passed to rb method
-  global.a = rb_eval("2")
+  global.a = rb_eval("2");
   rb_eval("define_method(:m) { |*a| a; }");
   ensure_rb_result("v0 == [v1]", rb_eval("Object").send("m", global.a), global.a);
   rb_eval("Object.undef_method(:m)");
   delete global.a
   // multiple arguments passed to rb method
-  global.a1 = rb_eval("'2'")
-  global.a2 = rb_eval("Object")
-  global.a3 = rb_eval("Object.new")
+  global.a1 = rb_eval("'2'");
+  global.a2 = rb_eval("Object");
+  global.a3 = rb_eval("Object.new");
   rb_eval("define_method(:m) { |*a| a; }");
-  global.r = rb_eval("Object").send("m", global.a1, global.a2, global.a3)
+  global.r = rb_eval("Object").send("m", global.a1, global.a2, global.a3);
   ensure_rb_result("v0 == [v1, v2, v3]", global.r, global.a1, global.a2, global.a3);
   rb_eval("Object.undef_method(:m)");
-  delete global.a1
-  delete global.a2
-  delete global.a3
-  delete global.r
+  delete global.a1;
+  delete global.a2;
+  delete global.a3;
+  delete global.r;
   // catch rb error
   rb_eval("define_method(:r) { raise }");
   ensure_raise(RbError, () => rb_eval("Object").send("r") );
@@ -290,11 +290,11 @@
       fail();
       throw error;
     }
-    ensure_rb_result("v0.is_a?(ArgumentError)", error.rb_value)
+    ensure_rb_result("v0.is_a?(ArgumentError)", error.rb_value);
   }
   rb_eval("Object.undef_method(:r)");
   // catch specific rb error instance
-  global.e = rb_eval("StandardError.new")
+  global.e = rb_eval("StandardError.new");
   rb_eval("define_method(:r) { raise v0 }", global.e);
   try
   {

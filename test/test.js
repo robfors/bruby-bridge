@@ -4,7 +4,7 @@ if (typeof global == 'undefined')
 
 test = function(message)
 {
-  console.log("test: " + message)
+  console.log("test: " + message);
 };
 
 
