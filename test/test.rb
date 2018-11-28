@@ -46,15 +46,14 @@ end
 
 
 def ensure_js_result(js_code, *js_values)
-  js_code = "(" + js_code + ")";
+  js_code = "( #{js_code} ) === true";
   ensure_result(js_eval(js_code, *js_values).to_boolean)
 end
 
 
 def ensure_js_result_not(js_code, *js_values)
-  js_code.insert(0, "!(")
-  js_code.insert(-1, ")")
-  ensure_js_result(js_code, *js_values)
+  js_code = "( #{js_code} ) === false";
+  ensure_result(js_eval(js_code, *js_values).to_boolean)
 end
 
 

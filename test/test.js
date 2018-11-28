@@ -54,14 +54,15 @@ ensure_result_not = function(result)
 
 ensure_rb_result = function(rb_code, ...values)
 {
+  rb_code = "( " + rb_code + " ) == true";
   ensure_result(rb_eval(rb_code, ...values).to_boolean());
 };
 
 
 ensure_rb_result_not = function(rb_code, ...values)
 {
-  rb_code = "!( " + rb_code + " )";
-  ensure_rb_result(rb_code, ...values);
+  rb_code = "( " + rb_code + " ) == false";
+  ensure_result(rb_eval(rb_code, ...values).to_boolean());
 }
 
 
