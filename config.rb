@@ -14,7 +14,6 @@ Extraneous::Module::Specification.new do |spec|
   
   # list as many ruby source files as you want
   # keep in mind they will be executed in the order you list them
-  spec.source(path: 'js/bruby_bridge.js', type: 'java_script')
   spec.source(path: 'js/bruby_bridge/argument_error.js', type: 'java_script')
   spec.source(path: 'js/bruby_bridge/js_error.js', type: 'java_script')
   spec.source(path: 'js/bruby_bridge/out_of_memory_error.js', type: 'java_script')
