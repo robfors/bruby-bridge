@@ -10,7 +10,7 @@
   
   test("RbValue.boolean");
   // too few arguments
-  ensure_raise(ArgumentError, () => RbValue.boolean() );
+  ensure_throw(ArgumentError, () => RbValue.boolean() );
   //
   ensure_rb_result("v0 == true", RbValue.boolean(true));
   //
@@ -28,7 +28,7 @@
   //
   ensure_rb_result("v0 == true", RbValue.boolean({}));
   // too many arguments
-  ensure_raise(ArgumentError, () => RbValue.boolean(true, rb_eval("false")) );
+  ensure_throw(ArgumentError, () => RbValue.boolean(true, rb_eval("false")) );
   
 
   test("RbValue.false");
@@ -42,7 +42,7 @@
 
   test("RbValue.float");
   // too few arguments
-  ensure_raise(ArgumentError, () => RbValue.float() );
+  ensure_throw(ArgumentError, () => RbValue.float() );
   //
   ensure_rb_result("v0 == 0", RbValue.float(0));
   //
@@ -58,14 +58,14 @@
   //
   ensure_rb_result("v0 == Float::INFINITY", RbValue.float(Infinity));
   // wrong argument type
-  ensure_raise(TypeError, () => RbValue.float("a") );
+  ensure_throw(TypeError, () => RbValue.float("a") );
   // too many arguments
-  ensure_raise(ArgumentError, () => RbValue.float(1, rb_eval("3")) );
+  ensure_throw(ArgumentError, () => RbValue.float(1, rb_eval("3")) );
 
 
   test("RbValue.get");
   // too few arguments
-  ensure_raise(ArgumentError, () => RbValue.get() );
+  ensure_throw(ArgumentError, () => RbValue.get() );
   // get top level constant
   rb_eval("class A; end");
   ensure_rb_result("v0 == A", RbValue.get("A"));
@@ -76,16 +76,16 @@
   ensure_rb_result("v0 == A::B::C", RbValue.get("A::B::C"));
   rb_eval("Object.send(:remove_const, :A)");
   // get missing constant
-  ensure_raise(RbError, () => RbValue.get("A") );
+  ensure_throw(RbError, () => RbValue.get("A") );
   // wrong argument type
-  ensure_raise(TypeError, () => RbValue.get(1) );
+  ensure_throw(TypeError, () => RbValue.get(1) );
   // too many arguments
-  ensure_raise(ArgumentError, () => RbValue.get("a", rb_eval("'b'")) );
+  ensure_throw(ArgumentError, () => RbValue.get("a", rb_eval("'b'")) );
 
 
   test("RbValue.integer");
   // too few arguments
-  ensure_raise(ArgumentError, () => RbValue.integer() );
+  ensure_throw(ArgumentError, () => RbValue.integer() );
   //
   ensure_rb_result("v0 == 0", RbValue.integer(0));
   //
@@ -97,15 +97,15 @@
   //
   ensure_rb_result("v0 == -2.0", RbValue.integer("-2.5"));
   // can't convert nan to integer
-  ensure_raise(RbError, () => RbValue.integer(NaN) );
+  ensure_throw(RbError, () => RbValue.integer(NaN) );
   // can't convert infinity to integer
-  ensure_raise(RbError, () => RbValue.integer(Infinity) );
+  ensure_throw(RbError, () => RbValue.integer(Infinity) );
   // wrong argument type
-  ensure_raise(TypeError, () => RbValue.integer("a") );
+  ensure_throw(TypeError, () => RbValue.integer("a") );
   // wrong argument type
-  ensure_raise(TypeError, () => RbValue.integer({}) );
+  ensure_throw(TypeError, () => RbValue.integer({}) );
   // too many arguments
-  ensure_raise(ArgumentError, () => RbValue.integer(1, rb_eval("3")) );
+  ensure_throw(ArgumentError, () => RbValue.integer(1, rb_eval("3")) );
 
 
   test("RbValue.Kernel");
@@ -143,20 +143,20 @@
   // passing number should still result in string
   ensure_rb_result("v0 == '-2.5'", RbValue.string(-2.5));
   //
-  ensure_raise(TypeError, () => RbValue.string(false) );
+  ensure_throw(TypeError, () => RbValue.string(false) );
   //
-  ensure_raise(TypeError, () => RbValue.string(null) );
+  ensure_throw(TypeError, () => RbValue.string(null) );
   //
-  ensure_raise(TypeError, () => RbValue.string(undefined) );
+  ensure_throw(TypeError, () => RbValue.string(undefined) );
   //
-  ensure_raise(TypeError, () => RbValue.string({}) );
+  ensure_throw(TypeError, () => RbValue.string({}) );
   // too many arguments
-  ensure_raise(ArgumentError, () => RbValue.string("a", rb_eval("'b'")) );
+  ensure_throw(ArgumentError, () => RbValue.string("a", rb_eval("'b'")) );
 
 
   test("RbValue.symbol");
   // too few arguments
-  ensure_raise(ArgumentError, () => RbValue.symbol() );
+  ensure_throw(ArgumentError, () => RbValue.symbol() );
   // pass empty string
   ensure_rb_result("v0 == :''", RbValue.symbol(''));
   // pass single character
@@ -168,15 +168,15 @@
   // passing number should still result in symbol
   ensure_rb_result("v0 == :'-2.5'", RbValue.symbol(-2.5));
   //
-  ensure_raise(TypeError, () => RbValue.symbol(false) );
+  ensure_throw(TypeError, () => RbValue.symbol(false) );
   //
-  ensure_raise(TypeError, () => RbValue.symbol(null) );
+  ensure_throw(TypeError, () => RbValue.symbol(null) );
   //
-  ensure_raise(TypeError, () => RbValue.symbol(undefined) );
+  ensure_throw(TypeError, () => RbValue.symbol(undefined) );
   //
-  ensure_raise(TypeError, () => RbValue.symbol({}) );
+  ensure_throw(TypeError, () => RbValue.symbol({}) );
   // too many arguments
-  ensure_raise(ArgumentError, () => RbValue.symbol("a", rb_eval("'b'")) );
+  ensure_throw(ArgumentError, () => RbValue.symbol("a", rb_eval("'b'")) );
 
 
   test("RbValue.true");
@@ -196,9 +196,9 @@
   //
   ensure_result_not( rb_eval("nil").equal_to(rb_eval("false")) );
   //
-  ensure_raise(ArgumentError, () => rb_eval("nil").equal_to() );
+  ensure_throw(ArgumentError, () => rb_eval("nil").equal_to() );
   //
-  ensure_raise(ArgumentError, () => rb_eval("nil").equal_to(rb_eval("nil"), rb_eval("nil")) );
+  ensure_throw(ArgumentError, () => rb_eval("nil").equal_to(rb_eval("nil"), rb_eval("nil")) );
   
 
   test("RbValue.prototype.is_a");
@@ -211,11 +211,11 @@
   //
   ensure_result_not( rb_eval("1").is_a("Float") );
   //
-  ensure_raise(TypeError, () => rb_eval("1").is_a(1) );
+  ensure_throw(TypeError, () => rb_eval("1").is_a(1) );
   //
-  ensure_raise(ArgumentError, () => rb_eval("1").is_a() );
+  ensure_throw(ArgumentError, () => rb_eval("1").is_a() );
   //
-  ensure_raise(ArgumentError, () => rb_eval("1").is_a(rb_eval("Integer"), rb_eval("Integer")) );
+  ensure_throw(ArgumentError, () => rb_eval("1").is_a(rb_eval("Integer"), rb_eval("Integer")) );
 
 
   test("RbValue.prototype.responds_to");
@@ -228,16 +228,16 @@
   ensure_result_not( rb_eval("$c").responds_to('b') );
   rb_eval('$c = nil')
   //
-  ensure_raise(ArgumentError, () => rb_eval("nil").responds_to() );
+  ensure_throw(ArgumentError, () => rb_eval("nil").responds_to() );
   //
-  ensure_raise(ArgumentError, () => rb_eval("nil").responds_to('a', 'b') );
+  ensure_throw(ArgumentError, () => rb_eval("nil").responds_to('a', 'b') );
   //
-  ensure_raise(TypeError, () => rb_eval("nil").responds_to(1) );
+  ensure_throw(TypeError, () => rb_eval("nil").responds_to(1) );
 
 
   test("RbValue.prototype.send");
   // too few arguments
-  ensure_raise(ArgumentError, () => rb_eval("Object").send() );
+  ensure_throw(ArgumentError, () => rb_eval("Object").send() );
   // passing js argument should be correct type
   global.a = ({});
   rb_eval("define_method(:m) { |a| $a = a; }");
@@ -320,7 +320,7 @@
   delete global.r;
   // catch rb error
   rb_eval("define_method(:r) { raise }");
-  ensure_raise(RbError, () => rb_eval("Object").send("r") );
+  ensure_throw(RbError, () => rb_eval("Object").send("r") );
   rb_eval("Object.undef_method(:r)");
   // catch specific rb error class
   rb_eval("define_method(:r) { raise ArgumentError }");
@@ -362,13 +362,13 @@
   // catch js error
   global.t = function() { throw new Error; };
   rb_eval("define_method(:r) { BRubyBridge::JSValue.global.call(BRubyBridge::JSValue.string('t')) }");
-  ensure_raise(Error, () => rb_eval('Object').send("r") );
+  ensure_throw(Error, () => rb_eval('Object').send("r") );
   delete global.t;
   rb_eval("Object.undef_method(:r)");
   // catch specific js error class
   global.t = function() { throw new TypeError; };
   rb_eval("define_method(:r) { BRubyBridge::JSValue.global.call(BRubyBridge::JSValue.string('t')) }");
-  ensure_raise(TypeError, () => rb_eval('Object').send("r") );
+  ensure_throw(TypeError, () => rb_eval('Object').send("r") );
   delete global.t;
   rb_eval("Object.undef_method(:r)");
   // catch same instance of js error
@@ -428,11 +428,11 @@
   ensure_result( rb_eval("$c.new").to_number() === 1 );
   rb_eval("$c = nil");
   //
-  ensure_raise(TypeError, () => rb_eval("nil").to_number() );
+  ensure_throw(TypeError, () => rb_eval("nil").to_number() );
   //
-  ensure_raise(TypeError, () => rb_eval("true").to_number() );
+  ensure_throw(TypeError, () => rb_eval("true").to_number() );
   //
-  ensure_raise(TypeError, () => rb_eval("[]").to_number() );
+  ensure_throw(TypeError, () => rb_eval("[]").to_number() );
   
 
   test("RbValue.prototype.to_string");

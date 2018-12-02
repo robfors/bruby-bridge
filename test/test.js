@@ -20,8 +20,11 @@ pass = function()
 };
 
 
-ensure_raise = function(error_class, func)
+ensure_throw = function(error_class, func)
 {
+  if (typeof error_class != 'function' ||
+      (!(error_class.prototype instanceof Error) && error_class !== Error) )
+    throw new TypeError('error_class must be Error or a subclass of it');
   try
   {
     func();
