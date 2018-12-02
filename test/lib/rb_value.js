@@ -340,6 +340,24 @@
     ensure_rb_result("v0.is_a?(ArgumentError)", error.rb_value);
   }
   rb_eval("Object.undef_method(:r)");
+  // ensure we can catch all errors, including Exception
+  rb_eval("define_method(:r) { raise Exception }");
+  try
+  {
+    rb_eval("Object").send("r");
+  }
+  catch (error)
+  {
+    if (error instanceof RbError )
+      pass();
+    else
+    {
+      fail();
+      throw error;
+    }
+    ensure_rb_result("v0.instance_of?(Exception)", error.rb_value);
+  }
+  rb_eval("Object.undef_method(:r)");
   // catch specific rb error instance
   global.e = rb_eval("StandardError.new");
   rb_eval("define_method(:r) { raise v0 }", global.e);

@@ -16,7 +16,7 @@ module BRubyBridge
           raise TypeError, "can not reutrn a RbError"
         end
         return_value
-      rescue StandardError => error_rb
+      rescue Exception => error_rb
         return_value = RbError.new(error_rb)
       end
     end
