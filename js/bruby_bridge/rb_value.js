@@ -255,16 +255,24 @@
 
     to_string()
     {
-      var string_rb;
+      if (this.is_a('String'))
+        return this._interface.to_string();
+      if (this.responds_to('to_str'))
+      {
+        let string_rb = this.send('to_str');
+        if (!string_rb.is_a('String'))
+          throw new TypeError('#to_str must return a String');
+        return string_rb.to_string();
+      }
       try
       {
-        string_rb = this.constructor.Object.send("String", this);
+        let string_rb = this.constructor.Object.send("String", this);
+        return string_rb.to_string();
       }
       catch(e)
       {
         throw new TypeError('can not convert that Ruby object to a JavaScript string');
       }
-      return string_rb._interface.to_string();
     }
 
 

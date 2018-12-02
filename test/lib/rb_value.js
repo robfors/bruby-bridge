@@ -472,6 +472,10 @@
   ensure_result( rb_eval("[]").to_string() === '[]' );
   //
   ensure_result( rb_eval("nil").to_string() === '' );
+  //
+  rb_eval("$c = Class.new { def to_str; 'a'; end }");
+  ensure_result( rb_eval("$c.new").to_string() === 'a' );
+  rb_eval("$c = nil");
 
 
   console.log("end-rb_value");
