@@ -297,3 +297,41 @@
 
 
 })();
+
+
+// TODO: remove this when better solution is available
+// temporary life cycle management solution
+(function(){
+  var RbValue = BRubyBridge.RbValue;
+  
+  RbValue.prototype.protect = function()
+  {
+    this._interface.protect();
+  };
+
+  RbValue.prototype.unprotect = function()
+  {
+    this._interface.unprotect();
+  };
+  
+  var old_forget_method = RbValue.prototype.forget;
+  RbValue.prototype.forget = function(...args)
+  {
+    this._interface.forget();
+  };
+
+  RbValue._class_rb.protect();
+  
+  RbValue.false.protect();
+  
+  RbValue.Kernel.protect();
+
+  RbValue.nil.protect();
+
+  RbValue.Object.protect();
+
+  RbValue._rb_error_class_rb.protect();
+  
+  RbValue.true.protect();
+
+})();

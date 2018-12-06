@@ -4,6 +4,8 @@ if (typeof global == 'undefined')
 
 test = function(message)
 {
+  // TODO: temp
+  forget_old_ruby_objects();
   console.log("test: " + message);
 };
 
